@@ -1,2 +1,3 @@
-# vjpai
-Vijay S. Pai, computer systems developer/educator/researcher
+# Vijay Pai
+## Computer systems developer/educator/researcher
+
