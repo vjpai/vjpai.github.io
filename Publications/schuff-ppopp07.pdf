@@ -1,0 +1,2185 @@
+%PDF-1.3
+%вгПУ
+2 0 obj
+<<
+/Length 17066
+>>
+stream
+BT
+/TT2 1 Tf
+17.9328 0 0 17.9328 64.8 700.62 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+[(Conser)6.7(v)6.7(ati)6.7(v)6.7(e)-234.2(vs.)-247.6(Optimistic)-247.6(P)6.7(arallelization)-234.2(of)-240.9(Stateful)-247.6(Netw)6.7(ork)]TJ
+8.8531 -1.1108 TD
+[(Intrusion)-254.3(Detection)]TJ
+/F1 1 Tf
+11.9552 0 0 11.9552 380.04 686.9401 Tm
+()Tj
+/TT4 1 Tf
+10.9589 0 0 10.9589 194.04 644.8201 Tm
+[(Derek)-240.9(L.)-240.9(Schuf)21.9(f,)-240.9(Y)109.5(ung)-240.9(Ryn)-240.9(Choe,)-229.9(and)-240.9(V)54.7(ijay)-240.9(S.)-251.8(P)10.9(a)0(i)]TJ
+8.9664 0 0 8.9664 272.52 629.8201 Tm
+[(Purdue)-254.3(Uni)26.8(v)13.4(ersity)]TJ
+-1.5123 -1.1108 TD
+[(W)80.3(est)-240.9(Laf)13.4(ayette,)-254.3(IN)-240.9(47907)]TJ
+/F2 1 Tf
+-2.1279 -1.325 TD
+({)Tj
+/F3 1 Tf
+0.5086 0 TD
+0.004 Tc
+[(ds)9.8(c)5.7(hu,)-339.5(y)9.3(ung)9.3(,)-339.5(v)9.3(pai)]TJ
+/F2 1 Tf
+8.0972 0 TD
+0 Tc
+(})Tj
+/F3 1 Tf
+0.5086 0 TD
+0.0045 Tc
+[(@)7.1(pur)7.6(due)6.2(.)8.9(e)6.2(du)]TJ
+/TT2 1 Tf
+10.9589 0 0 10.9589 54 549.9 Tm
+0 Tc
+(Abstract)Tj
+/TT4 1 Tf
+8.9664 0 0 8.9664 54 535.98 Tm
+[(This)-294.4(paper)-307.8(presents)-307.8(tw)13.4(o)-307.8(approaches)-321.2(to)-307.8(parallelizing)-307.8(the)-294.4(Snort)-294.4(net-)]TJ
+0 -1.1108 TD
+[(w)13.4(ork)-321.2(intrusion)-307.8(detection)-321.2(system)-321.2(\(NIDS\).)-294.4(One)-307.8(scheme)-321.2(parallelizes)]TJ
+T*
+[(NIDS)-200.7(processing)-227.5(conserv)26.8(ati)26.8(v)13.4(ely)-227.5(across)-214.1(independent)-240.9(netw)13.4(ork)]TJ
+/TT5 1 Tf
+24.3625 0 TD
+(Я)Tj
+/TT4 1 Tf
+0.5562 0 TD
+[(o)26.8(ws,)]TJ
+-24.9187 -1.1108 TD
+[(while)-200.7(the)-214.1(other)-214.1(optimistically)-200.8(achie)26.8(v)13.4(e)0(s)-227.5(intra-)]TJ
+/TT5 1 Tf
+17.6226 0 TD
+(Я)Tj
+/TT4 1 Tf
+0.5562 0 TD
+[(o)26.8(w)-200.8(parallelism)-200.7(by)-214.1(e)13.4(x)0(-)]TJ
+-18.1788 -1.1108 TD
+[(ploiting)-240.9(the)-240.9(observ)26.8(ation)-267.7(that)-227.5(certain)-240.9(intra-)]TJ
+/TT5 1 Tf
+16.5749 0 TD
+(Я)Tj
+/TT4 1 Tf
+0.5562 0 TD
+[(o)26.8(w)-240.9(dependences)-267.7(are)-240.9(un-)]TJ
+-17.1311 -1.1108 TD
+[(common)-414.9(and)-401.5(may)-401.5(be)-401.5(ignored)-414.9(under)-401.5(certain)-401.5(circumstances.)-401.5(Both)]TJ
+T*
+[(schemes)-254.3(achie)26.8(v)13.4(e)-267.7(a)13.4(v)13.4(erage)-240.9(speedup)-267.7(o)13.4(v)13.4(e)0(r)-254.3(2)-240.9(on)-254.3(four)-254.3(cores,)-240.9(with)-240.9(an)-254.3(a)13.4(v)0(-)]TJ
+T*
+[(erage)-254.3(throughput)-281.1(o)13.4(v)13.4(e)0(r)-254.3(1)-254.3(Gbps)-267.7(on)-254.3(5)-254.3(traces)-254.3(tested.)]TJ
+/TT7 1 Tf
+0 -1.8469 TD
+[(Categories)-348(and)-334.6(Subject)-334.6(Descriptors)]TJ
+/TT4 1 Tf
+15.7435 0 TD
+[(D.1.3)-334.6([)]TJ
+/TT9 1 Tf
+2.8898 0 TD
+[(Pr)40.2(o)13.4(g)0(r)13.4(amming)-348(T)93.7(e)0(c)13.4(h)0(-)]TJ
+-18.6333 -1.1108 TD
+(niques)Tj
+/TT4 1 Tf
+2.6108 0 TD
+[(]:)-254.3(P)13.4(arallel)-227.5(programming;)-776.2(C.2.0)-240.9([)]TJ
+/TT9 1 Tf
+13.3718 0 TD
+[(Computer)13.4(-Communication)]TJ
+-15.9826 -1.1108 TD
+(Networks)Tj
+/TT4 1 Tf
+3.7778 0 TD
+[(]:)-254.3(Security)-240.9(and)-267.7(Protection)]TJ
+/TT7 1 Tf
+-3.7778 -1.8469 TD
+[(General)-254.3(T)93.7(erms)]TJ
+/TT4 1 Tf
+7.1082 0 TD
+[(Performance,)-254.3(Security)66.9(,)-240.9(Design)]TJ
+/TT7 1 Tf
+-7.1082 -1.8469 TD
+[(K)26.8(eyw)13.4(ords)]TJ
+/TT4 1 Tf
+4.977 0 TD
+[(Snort,)-240.9(P)13.4(arallelization)]TJ
+/TT2 1 Tf
+-4.977 -1.8469 TD
+[(Backgr)13.4(ound.)]TJ
+/TT4 1 Tf
+5.8505 0 TD
+[(Netw)13.4(ork)-361.3(intrusion)-361.4(detection)-361.3(systems)-361.3(\(NIDSes\))-348(run)]TJ
+-5.8505 -1.1108 TD
+[(on)-267.7(a)-254.3(serv)13.4(er)-254.3(at)-254.3(the)-254.3(edge)-267.7(of)-267.7(a)-254.3(LAN)-240.9(to)-254.3(identify)-267.7(and)-267.7(log)-254.3(Internet-based)]TJ
+T*
+[(attacks)-401.5(against)-388.1(a)-401.5(local)-388.1(netw)13.4(ork,)-414.9(such)-401.5(as)-388.1(attempts)-401.5(at)-388.1(b)13.4(u)0(f)26.8(fer)-401.5(o)13.4(v)13.4(e)0(r)13.4(-)]TJ
+T*
+[(runs,)-388.1(cross-site)-401.5(scripting,)-388.1(and)-401.5(denial-of-service.)-401.5(Unlik)13.4(e)]TJ
+/TT5 1 Tf
+23.0435 0 TD
+(Ю)Tj
+/TT4 1 Tf
+0.5562 0 TD
+[(re)26.8(w)13.4(alls,)]TJ
+-23.5996 -1.1108 TD
+[(which)-321.2(w)13.4(ork)-334.6(by)-334.6(shutting)-321.2(of)26.8(f)-334.6(e)13.4(xternal)-321.2(access)-334.6(to)-321.2(certain)-321.2(ports,)-321.2(NID-)]TJ
+T*
+[(Ses)-294.4(can)-307.8(monitor)-307.8(attacks)-307.8(on)-321.2(e)13.4(xternally-e)13.4(xposed)-321.2(ports)-307.8(used)-307.8(for)-307.8(run-)]TJ
+T*
+[(ning)-281(netw)13.4(ork)-294.4(services.)-281(The)-281.1(most)-281(popular)-294.4(NIDS)-267.7(is)-267.7(the)-281.1(open-source)]TJ
+T*
+[(Snort,)-321.2(which)-334.6(identi)]TJ
+/TT5 1 Tf
+7.794 0 TD
+(Ю)Tj
+/TT4 1 Tf
+0.5562 0 TD
+[(es)-334.6(intrusion)-334.6(attempts)-334.6(by)-334.6(comparing)-348(e)26.8(v)13.4(ery)-348(in-)]TJ
+-8.3501 -1.1108 TD
+[(bound)-348(and)-334.6(outbound)-348(pack)13.4(et)-348(against)-321.2(a)]TJ
+/TT9 1 Tf
+15.6149 0 TD
+(ruleset)Tj
+/TT4 1 Tf
+3.0563 0 TD
+[([4].)-321.2(Rules)-321.2(in)-321.2(the)-334.6(set)]TJ
+-18.6712 -1.1108 TD
+[(represent)-455(characteristics)-441.7(of)-441.7(kno)26.8(wn)-455(attacks,)-441.7(such)-441.7(as)-441.7(the)-441.7(protocol)]TJ
+T*
+[(type,)-414.9(port)-401.5(number)40.2(,)-428.3(pack)13.4(et)-414.9(size,)-401.5(pack)13.4(et)-428.3(content)-414.9(\(both)-414.9(strings)-414.9(and)]TJ
+T*
+[(re)13.4(gular)-414.9(e)13.4(xpressions\),)-428.3(and)-428.3(the)-414.9(position)-428.3(of)-414.9(the)-428.3(suspicious)-428.3(content.)]TJ
+T*
+[(Each)-307.8(ne)26.8(w)-294.4(type)-307.8(of)-307.8(attack)-307.8(leads)-294.4(to)-307.8(ne)26.8(w)-307.8(rules,)-294.4(with)-294.4(rulesets)-294.4(gro)26.8(wing)]TJ
+T*
+[(rapidly)66.9(.)-321.2(The)-307.8(most)-321.2(recently-released)-321.2(freely-a)13.4(v)26.8(ailable)-321.2(Snort)-307.8(rulesets)]TJ
+T*
+[(ha)13.4(v)13.4(e)-254.3(o)13.4(v)13.4(e)0(r)-254.3(4000)-267.7(rules.)]TJ
+1.3383 -1.1108 TD
+[(The)-321.2(processing)-348(required)-348(by)-334.6(a)-334.6(netw)13.4(ork)-334.6(intrusion)-348(detection)-334.6(sys-)]TJ
+-1.3383 -1.1108 TD
+[(tem)-294.4(such)-321.2(as)-294.4(Snort)-294.4(is)-307.8(quite)-294.4(high,)-307.8(since)-307.8(the)-307.8(system)-307.8(must)-294.4(decode)-321.2(the)]TJ
+T*
+[(data,)-321.2(inspect)-334.6(the)-334.6(data)-334.6(according)-348(to)-321.2(the)-334.6(ruleset,)-321.2(and)-334.6(log)-334.6(intrusions.)]TJ
+T*
+[(These)-214.1(requirements)-214.1(limit)-187.4(Snort)-200.7(to)-214.1(an)-200.7(a)13.4(v)13.4(erage)-214.1(pack)13.4(et)-227.5(processing)-227.5(rate)]TJ
+T*
+[(of)-321.2(about)-334.6(557)-334.6(Mbps)-348(on)-321.2(a)-321.2(modern)-348(host)-321.2(machine)-334.6(\(2.2)-334.6(GHz)-321.2(Opteron)]TJ
+T*
+[(processor\))-401.5(—)-374.7(just)-388.1(o)13.4(v)13.4(e)0(r)-388.1(half)-374.7(of)-388.1(the)-388.1(Gigabit)-374.7(link-le)26.8(v)13.4(e)0(l)-388.1(bandwidth.)]TJ
+T*
+[(Consequently)66.9(,)-321.2(i)0(t)-281.1(i)0(s)-294.4(not)-294.4(possible)-307.8(to)-294.4(deplo)13.4(y)-307.8(Snort)-294.4(directly)-294.4(at)-294.4(a)-294.4(high-)]TJ
+T*
+[(end)-401.5(netw)13.4(ork)-414.9(access)-401.5(point)-401.5(that)-401.5(requires)-401.5(a)-401.5(data)-401.5(rate)-388.1(of)-401.5(1)-401.5(Gbps)-401.5(or)]TJ
+T*
+[(more.)-267.7(T)80.3(o)-281(address)-281(this)-267.7(problem,)-281(v)26.8(arious)-294.4(companies)-281.1(and)-294.4(researchers)]TJ
+T*
+[(ha)13.4(v)13.4(e)-401.5(proposed)-428.3(solutions)-401.5(based)-414.9(on)-401.5(clustering)-401.5([1)-13.4(,)-388.1(3)0(,)-401.5(5].)-388.1(Clustered)]TJ
+ET
+q
+119.64 0 0 -0.36 53.988 130.248 cm
+/Im1 Do
+Q
+BT
+/F4 1 Tf
+5.9776 0 0 5.9776 54 123.78 Tm
+()Tj
+/TT4 1 Tf
+7.9701 0 0 7.9701 59.28 120.9 Tm
+[(This)-271(w)15.1(ork)-286.1(is)-271(supported)-301.1(in)-286.1(part)-286.1(by)-271(the)-301.1(National)-301.1(Science)-316.2(F)15.1(oundation)-301.1(under)]TJ
+-0.6625 -1.1142 TD
+[(Grant)-271(Nos.)-240.9(CCF-0532448)-286.1(and)-511.9(CNS-0532452)-30.1(.)]TJ
+6.9738 0 0 6.9738 54 85.38 Tm
+[(Cop)17.2(yright)-275.3(is)-240.9(held)-258.1(by)-240.9(the)-258.1(author/o)17.2(wner\(s\).)]TJ
+6.9738 0 1.1646 6.9738 54 75.42 Tm
+(PPoPP’07)Tj
+6.9738 0 0 6.9738 90.2172 75.42 Tm
+[(March)-240.9(14–17,)-258.1(2007,)-240.9(San)-258.1(Jose,)-223.7(California,)-258.1(USA.)]TJ
+-5.1933 -1.1357 TD
+[(A)34.4(C)0(M)-240.9(978-1-59593-602-8/07/0003.)]TJ
+8.9664 0 0 8.9664 317.04 549.9 Tm
+[(NIDS)-240.9(potentially)-267.7(allo)26.8(ws)-267.7(high)-267.7(scalability)66.9(,)-254.3(b)13.4(ut)-267.7(requires)-267.7(the)-254.3(use)-267.7(of)-267.7(an)]TJ
+0 -1.1108 TD
+[(e)13.4(xpensi)26.8(v)13.4(e)-267.7(load-balancing)-281.1(switch.)]TJ
+/TT2 1 Tf
+1.325 -1.1108 TD
+[(Contrib)13.4(utions.)]TJ
+/TT4 1 Tf
+6.5727 0 TD
+[(This)-361.3(paper)-374.7(presents)-374.7(and)-374.7(e)26.8(v)26.8(aluates)-388.1(methods)-374.7(to)]TJ
+-7.8976 -1.1108 TD
+[(parallelize)-348(Snort.)-348(Although)-361.4(an)-361.4(NIDS)-334.6(lik)13.4(e)-348(Snort)-348(recei)26.8(v)13.4(e)0(s)-361.4(its)-348(input)]TJ
+T*
+[(pack)13.4(et-by-pack)13.4(et,)-455(an)-428.3(NIDS)-414.9(must)-441.6(aggre)13.4(gate)-428.3(distinct)-428.3(pack)13.4(ets)-441.7(into)]TJ
+T*
+[(TCP)-200.7(streams)-214.1(to)-227.5(pre)26.8(v)13.4(ent)-227.5(an)-214.1(attack)13.4(er)-227.5(from)-227.5(disguising)-227.5(malicious)-227.5(com-)]TJ
+T*
+[(munications)-294.4(by)-294.4(breaking)-294.4(the)-281.1(data)-294.4(up)-294.4(across)-281.1(se)26.8(v)13.4(eral)-294.4(pack)13.4(ets.)-294.4(Addi-)]TJ
+T*
+[(tionally)66.9(,)-374.7(a)0(n)-374.7(NIDS)-361.4(must)-374.7(process)-388.1(later)-361.3(pack)13.4(ets)-388.1(in)-374.7(a)-374.7(g)0(i)26.8(v)13.4(en)-374.7(commu-)]TJ
+T*
+[(nication)-388.1(based)-388.1(on)-388.1(its)-374.7(analysis)-374.7(of)-388.1(earlier)-374.7(pack)13.4(ets.)-388.1(F)13.4(o)0(r)-374.7(e)13.4(xample,)-388.1(if)]TJ
+T*
+[(a)-334.6(g)0(i)26.8(v)13.4(en)-348(sequence)-348(of)-334.6(characters)-348(represents)-348(a)-334.6(possible)-348(attack)-334.6(in)-334.6(the)]TJ
+T*
+[(body)-240.9(of)-227.5(an)-227.5(HTML)-214.1(document)-240.9(b)13.4(u)0(t)-227.5(may)-227.5(appear)-240.9(normally)-227.5(in)-227.5(an)-227.5(image,)]TJ
+T*
+[(the)-307.8(NIDS)-307.8(should)-321.2(not)-321.2(trigger)-307.8(an)-321.2(alert)-307.8(if)-294.4(an)-321.2(earlier)-307.8(pack)13.4(et)-321.2(indicated)]TJ
+T*
+[(that)-388.1(this)-388.1(data)-401.5(transfer)-388.1(w)13.4(a)0(s)-401.5(a)0(n)-388.1(image.)-401.5(Such)-388.1(constraints)-401.5(are)-388.1(incor)13.4(-)]TJ
+T*
+[(porated)-281(into)-281(Snort)-267.7(as)]TJ
+/TT9 1 Tf
+8.665 0 TD
+[(str)40.1(eam)-281(r)40.1(eassembly)]TJ
+/TT4 1 Tf
+7.7164 0 TD
+(and)Tj
+/TT10 1 Tf
+1.7249 0 TD
+(Я)Tj
+/TT9 1 Tf
+0.5 0 TD
+(owbits)Tj
+/TT4 1 Tf
+2.6118 0 TD
+[(,)-267.7(respecti)26.8(v)13.4(ely)66.9(.)]TJ
+-21.2181 -1.1108 TD
+[(All)-281(TCP)-267.7(data)-294.4(is)-281(reassembled)-307.8(into)-281.1(streams,)-294.4(and)-294.4(about)-294.4(36%)-294.4(of)-294.4(rules)]TJ
+T*
+(require)Tj
+/TT5 1 Tf
+3.1661 0 TD
+(Я)Tj
+/TT4 1 Tf
+0.5562 0 TD
+[(o)26.8(w)-321.2(tracking)-348(\(90%)-334.6(of)-334.6(which)-334.6(relate)-321.2(to)-334.6(NetBIOS\).)-307.8(Both)-334.6(of)]TJ
+-3.7223 -1.1108 TD
+[(these)-227.5(systems)-240.9(require)-240.9(pack)13.4(ets)-240.9(to)-240.9(be)-227.5(processed)-254.3(in-order;)-240.9(the)-227.5(TCP)-214.1(re-)]TJ
+T*
+[(assembler)-227.5(should)-240.9(see)-227.5(the)-214.1(pack)13.4(ets)-240.9(in)-227.5(the)-214.1(same)-227.5(order)-240.9(that)-214.1(the)13.4(y)-227.5(will)-214.1(be)]TJ
+T*
+[(seen)-307.8(by)-307.8(the)-307.8(destination)-307.8(host)-321.2(to)-294.4(mimic)-307.8(its)-294.4(TCP)-281(stack)-307.8(beha)13.4(vior)40.1(,)-307.8(and)]TJ
+/TT5 1 Tf
+T*
+(Я)Tj
+/TT4 1 Tf
+0.5562 0 TD
+[(o)26.8(wbits)-240.9(requires)-254.3(ordering)-254.3(because)-254.3(a)-254.3(pack)13.4(et)-254.3(which)-254.3(checks)-254.3(the)]TJ
+/TT5 1 Tf
+24.101 0 TD
+(Я)Tj
+/TT4 1 Tf
+0.5561 0 TD
+-0.0268 Tc
+[(ow)-26.8(-)]TJ
+-25.2133 -1.1108 TD
+0 Tc
+[(bits)-281(state)-267.7(depends)-307.8(on)-294.4(all)-267.7(pre)26.8(vious)-307.8(pack)13.4(ets)-294.4(which)-281.1(may)-294.4(ha)13.4(v)13.4(e)-281.1(set)-281(that)]TJ
+T*
+[(state.)-281.1(Ho)26.8(we)26.8(v)13.4(e)0(r)40.1(,)-307.8(an)13.4(y)-294.4(ordering)-307.8(or)-294.4(data)-307.8(sharing)-294.4(between)-307.8(the)-294.4(process-)]TJ
+T*
+[(ing)-267.7(of)-281.1(separate)-267.7(pack)13.4(ets)-294.4(only)-281.1(applies)-267.7(to)-267.7(pack)13.4(ets)-294.4(in)-267.7(the)-267.7(same)-281(IP)]TJ
+/TT5 1 Tf
+24.9804 0 TD
+(Я)Tj
+/TT4 1 Tf
+0.5561 0 TD
+-0.0268 Tc
+(ow)Tj
+-25.5365 -1.1108 TD
+0 Tc
+[(\(not)-254.3(only)-267.7(TCP)-240.9(streams,)-254.3(b)13.4(u)0(t)-254.3(also)-254.3(source/destination)-267.7(communication)]TJ
+T*
+[(pairs)-361.3(in)-374.7(other)-374.7(protocols\).)-374.7(Although)-388.1(this)-361.4(paper)-388.1(speci)]TJ
+/TT5 1 Tf
+21.2022 0 TD
+(Ю)Tj
+/TT4 1 Tf
+0.5562 0 TD
+[(cally)-361.4(tar)13.4(gets)]TJ
+-21.7584 -1.1108 TD
+[(Snort,)-254.3(the)-267.7(parallelization)-267.7(challenges)-267.7(and)-281(strate)13.4(gies)-254.3(discussed)-281(apply)]TJ
+T*
+[(to)-254.3(an)13.4(y)-254.3(intrusion)-254.3(detection)-267.7(system)-254.3(that)-240.9(uses)-267.7(TCP)-227.5(stream)-254.3(reassembly)]TJ
+T*
+[(to)-374.7(mer)13.4(ge)-374.7(pack)13.4(ets)-401.5(together)-388.1(for)-374.7(inspection)-388.1(or)-388.1(preserv)13.4(es)-388.1(other)-374.7(state)]TJ
+T*
+[(across)-254.3(dif)26.8(ferent)-254.3(pack)13.4(ets)-267.7(from)-254.3(the)-254.3(same)]TJ
+/TT5 1 Tf
+15.6591 0 TD
+(Я)Tj
+/TT4 1 Tf
+0.5562 0 TD
+-0.0268 Tc
+[(ow)40.1(.)]TJ
+-14.8903 -1.1108 TD
+0 Tc
+[(The)-267.7(strate)13.4(gies)-254.3(studied)-281(in)-254.3(this)-267.7(paper)-267.7(tak)13.4(e)-267.7(dif)26.8(ferent)-267.7(approaches)-281(to)]TJ
+-1.325 -1.1108 TD
+[(parallelizing)-267.7(the)-267.7(Snort)-254.3(NIDS:)-254.3(one)-267.7(conserv)26.8(ati)26.8(v)13.4(e)-294.4(and)-267.7(one)-281(optimistic.)]TJ
+T*
+[(The)-401.5(conserv)26.8(ati)26.8(v)13.4(e)-428.3(scheme,)-414.9(called)-401.5(the)]TJ
+/TT10 1 Tf
+15.4595 0 TD
+(Я)Tj
+/TT9 1 Tf
+0.5 0 TD
+[(ow-concurr)40.1(ent)]TJ
+/TT4 1 Tf
+6.2758 0 TD
+(paralleliza-)Tj
+-22.2353 -1.1108 TD
+[(tion,)-401.5(e)13.4(xploits)-414.9(concurrenc)13.4(y)-428.3(b)0(y)-414.9(parallelizing)-414.9(ruleset)-414.9(processing)-428.3(on)]TJ
+0 -1.1242 TD
+(a)Tj
+/TT5 1 Tf
+0.8186 0 TD
+(Я)Tj
+/TT4 1 Tf
+0.5562 0 TD
+[(o)26.8(w-by-)]TJ
+/TT5 1 Tf
+2.8614 0 TD
+(Я)Tj
+/TT4 1 Tf
+0.5562 0 TD
+[(o)26.8(w)-374.7(basis.)-374.7(All)-361.4(pack)13.4(ets)-388.1(are)-374.7(initially)-361.3(recei)26.8(v)13.4(e)0(d)-388.1(i)0(n)-374.7(the)-374.7(or)13.4(-)]TJ
+-4.7923 -1.1108 TD
+[(der)-294.4(in)-307.8(which)-307.8(the)13.4(y)-294.4(appear)-321.2(on)-294.4(the)-307.8(netw)13.4(ork.)-307.8(The)-294.4(thread)-307.8(that)-307.8(recei)26.8(v)13.4(e)0(s)]TJ
+T*
+[(them)-374.7(inspects)-374.7(the)-374.7(IP)-374.7(headers)-388.1(to)-361.4(determine)-388.1(the)]TJ
+/TT5 1 Tf
+19.3946 0 TD
+(Я)Tj
+/TT4 1 Tf
+0.5562 0 TD
+[(o)26.8(w)-374.7(to)-374.7(which)-374.7(the)]TJ
+-19.9507 -1.1108 TD
+[(pack)13.4(et)-334.6(belongs)-334.6(and)-334.6(then)-321.2(steers)-321.2(that)-321.2(pack)13.4(et)-348(to)-321.2(the)-321.2(appropriate)-334.6(pro-)]TJ
+T*
+[(cessing)-294.4(thread)-307.8(based)-307.8(on)-294.4(whether)-307.8(or)-294.4(not)-294.4(that)]TJ
+/TT5 1 Tf
+17.9459 0 TD
+(Я)Tj
+/TT4 1 Tf
+0.5562 0 TD
+[(o)26.8(w)-281(has)-307.8(already)-294.4(been)]TJ
+-18.5021 -1.1108 TD
+[(assigned)-361.4(to)-361.3(a)-348(thread.)-361.4(Since)-348(each)-374.7(gi)26.8(v)13.4(e)0(n)]TJ
+/TT5 1 Tf
+16.1649 0 TD
+(Я)Tj
+/TT4 1 Tf
+0.5562 0 TD
+[(o)26.8(w)-348(is)-348(only)-374.7(processed)-374.7(by)]TJ
+-16.721 -1.1108 TD
+[(one)-307.8(thread)-294.4(at)-294.4(an)13.4(y)-307.8(g)0(i)26.8(v)13.4(en)-294.4(time,)-294.4(the)-294.4(dependences)-334.6(required)-294.4(for)-294.4(proper)]TJ
+T*
+[(stream)-388.1(reassembly)-388.1(and)]TJ
+/TT5 1 Tf
+9.7856 0 TD
+(Я)Tj
+/TT4 1 Tf
+0.5562 0 TD
+[(o)26.8(w)-388.1(tracking)-388.1(are)-388.1(maintained)-401.5(easily)66.9(.)-374.7(This)]TJ
+-10.3418 -1.1108 TD
+[(scheme)-267.7(w)13.4(orks)-267.7(well)-240.9(if)-254.3(there)-254.3(are)-254.3(enough)-281(independent)]TJ
+/TT5 1 Tf
+20.9135 0 TD
+(Я)Tj
+/TT4 1 Tf
+0.5562 0 TD
+[(o)26.8(ws,)-254.3(b)13.4(u)0(t)-254.3(pro-)]TJ
+-21.4696 -1.1108 TD
+[(vides)-334.6(no)-321.2(bene)]TJ
+/TT5 1 Tf
+5.6543 0 TD
+(Ю)Tj
+/TT4 1 Tf
+0.5562 0 TD
+[(ts)-334.6(if)-307.8(all)-321.2(pack)13.4(ets)-334.6(are)-334.6(from)-321.2(the)-321.2(same)]TJ
+/TT5 1 Tf
+14.3132 0 TD
+(Я)Tj
+/TT4 1 Tf
+0.5562 0 TD
+[(o)26.8(w)66.9(.)-321.2(The)-321.2(latter)]TJ
+-21.0798 -1.1108 TD
+[(case)-334.6(is)-321.2(not)-321.2(a)-334.6(lik)13.4(ely)-321.2(situation)-334.6(in)-321.2(a)-334.6(high-bandwidth)-348(edge)-334.6(NIDS,)-307.8(b)13.4(u)0(t)]TJ
+T*
+[(does)-254.3(represent)-267.7(a)-254.3(limitation)-240.9(of)-254.3(this)-254.3(scheme.)]TJ
+1.325 -1.1108 TD
+[(The)-348(alternati)26.8(v)13.4(e)-361.4(parallelization)-348(is)-334.6(an)-361.4(optimistic)-334.6(v)26.8(ariant)-361.4(on)]TJ
+/TT5 1 Tf
+23.6111 0 TD
+(Я)Tj
+/TT4 1 Tf
+0.5561 0 TD
+-0.0268 Tc
+(ow)Tj
+-25.4922 -1.1108 TD
+0 Tc
+[(concurrenc)13.4(y)66.9(.)-227.5(This)-214.1(scheme)-214.1(starts)-200.7(with)-214.1(the)-214.1(basic)]TJ
+/TT5 1 Tf
+18.5514 0 TD
+(Я)Tj
+/TT4 1 Tf
+0.5561 0 TD
+[(o)26.8(w-concurrent)-227.5(par)13.4(-)]TJ
+-19.1076 -1.1108 TD
+[(allelization)-294.4(b)13.4(u)0(t)-294.4(then)-294.4(has)-307.8(the)-294.4(ability)-294.4(to)-294.4(dynamically)-307.8(reassign)-307.8(a)]TJ
+/TT5 1 Tf
+24.9643 0 TD
+(Я)Tj
+/TT4 1 Tf
+0.5562 0 TD
+-0.0268 Tc
+(ow)Tj
+-25.5204 -1.1108 TD
+0 Tc
+[(to)-281(a)-281.1(dif)26.8(ferent)-294.4(thread)-294.4(e)26.8(v)13.4(en)-294.4(while)-281(earlier)-281.1(pack)13.4(ets)-294.4(of)-281(the)]TJ
+/TT5 1 Tf
+21.6755 0 TD
+(Я)Tj
+/TT4 1 Tf
+0.5561 0 TD
+[(o)26.8(w)-281.1(are)-281(still)]TJ
+ET
+endstream
+endobj
+3 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB ]
+/Font <<
+/F1 4 0 R
+/F2 5 0 R
+/F3 6 0 R
+/F4 7 0 R
+/TT2 8 0 R
+/TT4 9 0 R
+/TT5 10 0 R
+/TT7 11 0 R
+/TT9 12 0 R
+/TT10 13 0 R
+>>
+/XObject <<
+/Im1 14 0 R
+>>
+/ExtGState <<
+/GS1 15 0 R
+>>
+>>
+endobj
+18 0 obj
+<<
+/Length 24012
+>>
+stream
+1 1 1 rg
+/GS1 gs
+50.318 721.037 243.597 -165.703 re
+f
+81.406 701.466 209.651 -115.174 re
+f
+q
+1 i 
+81.406 602.703 209.651 0.043 re
+W n
+0 0 0 RG
+1 J 1 j 0.043 w 10 M []0 d
+81.406 602.746 m
+291.057 602.746 l
+S
+Q
+q
+1 i 
+81.406 619.156 209.651 0.043 re
+W n
+0 0 0 RG
+1 J 1 j 0.043 w 10 M []0 d
+81.406 619.199 m
+291.057 619.199 l
+S
+Q
+q
+1 i 
+81.406 635.609 209.651 0.043 re
+W n
+0 0 0 RG
+1 J 1 j 0.043 w 10 M []0 d
+81.406 635.653 m
+291.057 635.653 l
+S
+Q
+q
+1 i 
+81.406 652.063 209.651 0.043 re
+W n
+0 0 0 RG
+1 J 1 j 0.043 w 10 M []0 d
+81.406 652.106 m
+291.057 652.106 l
+S
+Q
+q
+1 i 
+81.406 668.516 209.651 0.043 re
+W n
+0 0 0 RG
+1 J 1 j 0.043 w 10 M []0 d
+81.406 668.56 m
+291.057 668.56 l
+S
+Q
+q
+1 i 
+81.406 684.97 209.651 0.043 re
+W n
+0 0 0 RG
+1 J 1 j 0.043 w 10 M []0 d
+81.406 685.013 m
+291.057 685.013 l
+S
+Q
+q
+1 i 
+81.406 701.423 209.651 0.043 re
+W n
+0 0 0 RG
+1 J 1 j 0.043 w 10 M []0 d
+81.406 701.466 m
+291.057 701.466 l
+S
+Q
+0 0 0 RG
+1 J 1 j 0.043 w 10 M []0 d
+1 i 
+81.406 586.293 209.651 115.174 re
+S
+q
+81.406 702.159 210.344 -115.867 re
+W* n
+/Pattern cs /P1 scn
+88.378 641.282 9.309 -54.989 re
+f
+Q
+q
+86.213 586.293 13.639 57.154 re
+W n
+0 j 0.346 w 
+88.378 586.293 9.266 54.989 re
+S
+Q
+q
+81.406 702.159 210.344 -115.867 re
+W* n
+/Pattern cs /P1 scn
+130.29 638.77 9.309 -52.478 re
+f
+Q
+q
+128.125 586.293 13.639 54.643 re
+W n
+0 j 0.346 w 
+130.29 586.293 9.266 52.478 re
+S
+Q
+q
+81.406 702.159 210.344 -115.867 re
+W* n
+/Pattern cs /P1 scn
+172.247 640.113 9.309 -53.82 re
+f
+Q
+q
+170.082 586.293 13.639 55.985 re
+W n
+0 j 0.346 w 
+172.247 586.293 9.266 53.82 re
+S
+Q
+q
+81.406 702.159 210.344 -115.867 re
+W* n
+/Pattern cs /P1 scn
+214.159 633.531 9.309 -47.239 re
+f
+Q
+q
+211.994 586.293 13.639 49.404 re
+W n
+0 j 0.346 w 
+214.159 586.293 9.266 47.239 re
+S
+Q
+q
+81.406 702.159 210.344 -115.867 re
+W* n
+/Pattern cs /P1 scn
+256.116 633.098 9.309 -46.806 re
+f
+Q
+q
+253.951 586.293 13.639 48.971 re
+W n
+0 j 0.346 w 
+256.116 586.293 9.266 46.806 re
+S
+Q
+q
+81.406 702.159 210.344 -115.867 re
+W* n
+/Pattern cs /P2 scn
+97.687 663.364 9.309 -77.071 re
+f
+Q
+q
+95.522 586.293 13.639 79.236 re
+W n
+0 j 0.346 w 
+97.687 586.293 9.266 77.071 re
+S
+Q
+q
+81.406 702.159 210.344 -115.867 re
+W* n
+/Pattern cs /P2 scn
+139.6 659.337 9.352 -73.044 re
+f
+Q
+q
+137.435 586.293 13.682 75.209 re
+W n
+0 j 0.346 w 
+139.6 586.293 9.309 73.044 re
+S
+Q
+q
+81.406 702.159 210.344 -115.867 re
+W* n
+/Pattern cs /P2 scn
+181.556 664.446 9.309 -78.154 re
+f
+Q
+q
+179.391 586.293 13.639 80.319 re
+W n
+0 j 0.346 w 
+181.556 586.293 9.266 78.154 re
+S
+Q
+q
+81.406 702.159 210.344 -115.867 re
+W* n
+/Pattern cs /P2 scn
+223.469 639.506 9.352 -53.214 re
+f
+Q
+q
+221.304 586.293 13.682 55.379 re
+W n
+0 j 0.346 w 
+223.469 586.293 9.309 53.214 re
+S
+Q
+q
+81.406 702.159 210.344 -115.867 re
+W* n
+/Pattern cs /P2 scn
+265.425 636.389 9.309 -50.096 re
+f
+Q
+q
+263.26 586.293 13.639 52.261 re
+W n
+0 j 0.346 w 
+265.425 586.293 9.266 50.096 re
+S
+Q
+0 0 1 rg
+0 j 0.346 w 
+106.996 586.293 9.266 97.941 re
+B*
+148.952 586.293 9.266 96.079 re
+B*
+190.865 586.293 9.266 98.547 re
+B*
+232.821 586.293 9.266 56.115 re
+B*
+274.734 586.293 9.266 50.313 re
+B*
+0.043 w 
+81.406 701.466 m
+81.406 586.293 l
+79.155 586.293 m
+81.406 586.293 l
+79.155 602.746 m
+81.406 602.746 l
+79.155 619.199 m
+81.406 619.199 l
+79.155 635.653 m
+81.406 635.653 l
+79.155 652.106 m
+81.406 652.106 l
+79.155 668.56 m
+81.406 668.56 l
+79.155 685.013 m
+81.406 685.013 l
+79.155 701.466 m
+81.406 701.466 l
+81.406 586.293 m
+291.057 586.293 l
+81.406 584.041 m
+81.406 586.293 l
+123.319 584.041 m
+123.319 586.293 l
+165.275 584.041 m
+165.275 586.293 l
+207.188 584.041 m
+207.188 586.293 l
+249.145 584.041 m
+249.145 586.293 l
+291.057 584.041 m
+291.057 586.293 l
+S
+BT
+/TT12 1 Tf
+7.1442 0 0 7.1442 71.9241 583.7813 Tm
+0 0 0 rg
+0 Tc
+0 Tw
+(0)Tj
+-0.8364 2.303 TD
+0.0012 Tc
+(0.5)Tj
+0.8364 2.303 TD
+0 Tc
+(1)Tj
+-0.8364 2.303 TD
+0.0012 Tc
+(1.5)Tj
+0.8364 2.303 TD
+0 Tc
+(2)Tj
+-0.8364 2.303 TD
+0.0012 Tc
+(2.5)Tj
+0.8364 2.303 TD
+0 Tc
+(3)Tj
+-0.8364 2.303 TD
+0.0012 Tc
+(3.5)Tj
+4.2061 -17.5697 TD
+0.0009 Tc
+[(LL1)-4091.4(LL2)-4085.4(LL3)-3697.5(DEF1)-3315.7(DEF2)]TJ
+11.297 -1.6424 TD
+0.0008 Tc
+(Trace)Tj
+0 7.1442 -7.1442 0 61.316 628.7684 Tm
+0.0011 Tc
+(Speedup)Tj
+ET
+1 1 1 rg
+121.111 719.955 130.112 -9.699 re
+f
+121.068 710.256 130.155 9.742 re
+S
+/Pattern cs /P1 scn
+123.146 716.967 4.546 -4.546 re
+f
+0.346 w 
+123.146 712.464 4.503 4.503 re
+S
+BT
+7.1442 0 0 7.1442 129.4244 712.291 Tm
+0 0 0 rg
+(2 Threads)Tj
+ET
+/Pattern cs /P2 scn
+166.271 716.967 4.546 -4.546 re
+f
+166.271 712.464 4.503 4.503 re
+S
+BT
+7.1442 0 0 7.1442 172.5496 712.291 Tm
+0 0 0 rg
+(3 Threads)Tj
+ET
+0 0 1 rg
+209.397 712.464 4.503 4.503 re
+B*
+BT
+7.1442 0 0 7.1442 215.6748 712.291 Tm
+0 0 0 rg
+(4 Threads)Tj
+ET
+0 g
+q
+239.16 0 0 -0.36 53.988 557.568 cm
+/Im1 Do
+Q
+BT
+/TT2 1 Tf
+8.9664 0 0 8.9664 73.92 547.02 Tm
+0 Tc
+[(Figur)13.4(e)-240.9(1)0(.)]TJ
+/TT4 1 Tf
+4.3052 0 TD
+[(P)13.4(arallel)-240.9(speedup)-267.7(for)-254.3(conserv)26.8(ati)26.8(v)13.4(e)-281.1(parallelism)]TJ
+-6.5269 -3.386 TD
+[(being)-361.4(processed,)-361.4(potentially)-348(e)13.4(xploiting)-361.4(parallelism)-348(e)26.8(v)13.4(en)-361.4(with)-348(just)]TJ
+0 -1.1108 TD
+(one)Tj
+/TT5 1 Tf
+1.8186 0 TD
+(Я)Tj
+/TT4 1 Tf
+0.5562 0 TD
+[(o)26.8(w)66.9(.)-348(This)-361.3(optimistic)-348(v)13.4(ersion)-374.7(relies)-361.4(on)-361.4(tw)13.4(o)-361.4(k)13.4(e)13.4(y)-374.7(observ)26.8(ations.)]TJ
+-2.3747 -1.1108 TD
+[(First,)-267.7(TCP)-281(stream)-294.4(reassembly)-307.8(will)-281.1(still)-281.1(tak)13.4(e)-294.4(place)-294.4(e)26.8(v)13.4(en)-307.8(if)-281.1(a)-294.4(stream)]TJ
+T*
+[(is)-187.4(brok)13.4(en)-214.1(at)-200.7(some)-200.8(arbitrary)-200.8(point;)-187.4(reassembly)-214.1(is)-187.4(triggered)-200.8(by)-200.8(v)26.8(arious)]TJ
+/TT5 1 Tf
+T*
+(Я)Tj
+/TT4 1 Tf
+0.5562 0 TD
+[(ush)-281.1(conditions,)-307.8(one)-294.4(of)-281.1(which)-294.4(is)-267.7(a)-294.4(timeout.)-281.1(It)-281(is)-281(also)-281(easy)-294.4(to)-281.1(force)]TJ
+-0.5562 -1.1108 TD
+(additional)Tj
+/TT5 1 Tf
+4.2667 0 TD
+(Я)Tj
+/TT4 1 Tf
+0.5562 0 TD
+[(ushes)-267.7(if)-267.7(needed)-281.1(for)-254.3(correctness.)-267.7(Consequently)66.9(,)-294.4(a)0(n)13.4(y)-267.7(un-)]TJ
+-4.8228 -1.1108 TD
+[(processed)-254.3(earlier)-240.9(pack)13.4(ets)-254.3(will)-227.5(still)-214.1(go)-254.3(through)-254.3(stream)-240.9(reassembly)-254.3(at)]TJ
+T*
+[(their)-348(thread)-348(e)26.8(v)13.4(en)-361.4(though)-374.7(later)-334.6(pack)13.4(ets)-374.7(are)-348(being)-348(reassembled)-374.7(and)]TJ
+T*
+[(processed)-388.1(in)-374.7(another)-388.1(thread.)-374.7(Second,)-388.1(most)-374.7(pack)13.4(ets)-388.1(do)-388.1(not)-374.7(match)]TJ
+T*
+[(rules)-401.5(that)-388.1(use)]TJ
+/TT5 1 Tf
+5.9809 0 TD
+(Я)Tj
+/TT4 1 Tf
+0.5562 0 TD
+[(o)26.8(wbits)-388.1(tracking,)-401.5(so)-401.5(enforcing)-414.9(ordering)-414.9(across)-401.5(all)]TJ
+-6.537 -1.1108 TD
+[(pack)13.4(ets)-307.8(in)-281.1(a)]TJ
+/TT5 1 Tf
+5.0901 0 TD
+(Я)Tj
+/TT4 1 Tf
+0.5562 0 TD
+[(o)26.8(w)-281(just)-294.4(to)-281.1(deal)-294.4(with)-294.4(a)-281(f)0(e)26.8(w)-294.4(problematic)-294.4(rules)-294.4(may)-294.4(be)]TJ
+-5.6463 -1.1108 TD
+[(too)-240.9(restricti)26.8(v)13.4(e)0(.)-240.9(T)80.3(o)-240.9(precisely)-254.3(deal)-240.9(with)-240.9(the)-240.9(rules)-254.3(that)-240.9(do)-240.9(use)]TJ
+/TT5 1 Tf
+23.2571 0 TD
+(Я)Tj
+/TT4 1 Tf
+0.5562 0 TD
+[(o)26.8(wbits,)]TJ
+-23.8133 -1.1108 TD
+[(the)-374.7(optimistic)-361.3(system)-388.1(stalls)-361.4(processing)-388.1(in)-374.7(an)13.4(y)-374.7(pack)13.4(et)-388.1(that)-374.7(sets)-361.4(or)]TJ
+T*
+(checks)Tj
+/TT5 1 Tf
+2.975 0 TD
+(Я)Tj
+/TT4 1 Tf
+0.5562 0 TD
+[(o)26.8(wbits)-227.5(unless)-254.3(it)-227.5(is)-227.5(the)-240.9(oldest)-240.9(pack)13.4(et)-254.3(in)-240.9(its)]TJ
+/TT5 1 Tf
+16.4332 0 TD
+(Я)Tj
+/TT4 1 Tf
+0.5562 0 TD
+[(o)26.8(w)66.9(.)-227.5(This)-240.9(condi-)]TJ
+-20.5205 -1.1108 TD
+[(tion)-294.4(is)-294.4(check)13.4(ed)-334.6(by)-294.4(adding)-321.2(per)13.4(-)]TJ
+/TT5 1 Tf
+12.3419 0 TD
+(Я)Tj
+/TT4 1 Tf
+0.5562 0 TD
+[(o)26.8(w)-294.4(reorder)-307.8(b)13.4(u)0(f)26.8(fers.)-294.4(This)-294.4(system)-307.8(is)]TJ
+-12.8981 -1.1108 TD
+[(optimistic)-307.8(in)-307.8(the)-307.8(sense)-321.2(that)-307.8(it)-294.4(reassigns)-321.2(threads)-307.8(under)-321.2(the)-307.8(assump-)]TJ
+T*
+[(tion)-240.9(that)-240.9(the)-240.9(actual)-254.3(use)-240.9(of)]TJ
+/TT5 1 Tf
+10.2889 0 TD
+(Я)Tj
+/TT4 1 Tf
+0.5562 0 TD
+[(o)26.8(wbits)-240.9(is)-240.9(uncommon,)-267.7(b)13.4(u)0(t)-227.5(i)0(s)-240.9(still)-227.5(conser)13.4(-)]TJ
+-10.845 -1.1108 TD
+[(v)26.8(ati)26.8(v)13.4(e)-334.6(in)-334.6(maintaining)-334.6(correct)-334.6(ruleset)-334.6(processing)-348(without)-334.6(requiring)]TJ
+T*
+[(rollbacks)-267.7(and)-254.3(redundant)-281(processing.)]TJ
+/TT2 1 Tf
+1.3383 -1.1108 TD
+[(Experimental)-441.6(Results.)]TJ
+/TT4 1 Tf
+10.0771 0 TD
+[(The)-441.7(parallel)-455(NIDS)-441.7(is)-441.7(tested)-455(using)-455(3)]TJ
+-11.4155 -1.1108 TD
+[(pack)13.4(et)-240.9(traces)-227.5(from)-227.5(the)-240.9(1998-1999)-254.3(D)40.1(ARP)93.7(A)-227.5(intrusion)-227.5(detection)-240.9(e)26.8(v)26.8(al-)]TJ
+T*
+[(uation)-348(at)-334.6(MIT)-334.6(Lincoln)-334.6(Lab)-334.6(and)-348(2)-334.6(from)-334.6(the)-348(Defcon)-334.6(9)-348(Capture)-334.6(the)]TJ
+T*
+[(Flag)-374.7(contest)-374.7([2,)-374.7(7].)-374.7(The)-374.7(Lincoln)-374.7(Lab)-374.7(traces)-374.7(\(LL1–LL3\))-374.7(are)-374.7(sim-)]TJ
+T*
+[(ulations)-348(of)-348(lar)13.4(ge)-348(military)-334.6(netw)13.4(orks.)-361.3(Because)-348(the)13.4(y)-348(were)-348(generated)]TJ
+T*
+(speci)Tj
+/TT5 1 Tf
+2.0547 0 TD
+(Ю)Tj
+/TT4 1 Tf
+0.5562 0 TD
+[(cally)-441.6(for)-428.3(IDS)-414.9(testing,)-441.7(\(including)-441.7(anomaly-based)-468.4(detection)]TJ
+-2.6108 -1.1108 TD
+[(systems,)-428.3(which)-441.7(require)-428.3(realistic)-414.9(traf)]TJ
+/TT5 1 Tf
+14.9314 0 TD
+(Ю)Tj
+/TT4 1 Tf
+0.5562 0 TD
+[(c)-428.3(models)-441.7(to)-428.3(be)-428.3(useful\))-428.3(the)]TJ
+-15.4876 -1.1108 TD
+[(traces)-401.5(ha)13.4(v)13.4(e)-401.5(a)-401.5(good)-414.9(collection)-401.5(of)-401.5(ordinary-looking)-428.3(traf)]TJ
+/TT5 1 Tf
+22.4001 0 TD
+(Ю)Tj
+/TT4 1 Tf
+0.5562 0 TD
+[(c)-401.5(content)]TJ
+-22.9563 -1.1108 TD
+[(and)-307.8(also)-307.8(contain)-307.8(attacks)-307.8(that)-294.4(were)-307.8(kno)26.8(wn)-321.2(at)-294.4(the)-294.4(time.)-294.4(The)-307.8(Defcon)]TJ
+T*
+[(traces)-294.4(\(DEF1,)-281(DEF2\))-281.1(are)-294.4(logs)-307.8(from)-294.4(a)-294.4(contest)-294.4(in)-294.4(which)-294.4(hack)13.4(ers)-321.2(at-)]TJ
+T*
+[(tempt)-214.1(to)-214.1(attack)-214.1(and)-214.1(defend)-227.5(vulnerable)-240.9(systems.)-214.1(Consequently)66.9(,)-227.5(these)]TJ
+T*
+[(traces)-240.9(contain)-254.3(a)-240.9(huge)-254.3(amount)-254.3(of)-240.9(attacks)-254.3(and)-240.9(anomalous)-267.7(traf)]TJ
+/TT5 1 Tf
+23.6572 0 TD
+(Ю)Tj
+/TT4 1 Tf
+0.5562 0 TD
+[(c,)-227.5(rep-)]TJ
+-24.2133 -1.1108 TD
+[(resenting)-401.5(a)-401.5(sort)-401.5(of)-401.5(pathological)-414.9(case)-401.5(for)-388.1(intrusion)-414.9(detection)-401.5(sys-)]TJ
+T*
+[(tems.)-240.9(Both)-254.3(parallelizations)-254.3(use)-254.3(most)-240.9(of)-254.3(the)-240.9(same)-254.3(pack)13.4(et)-267.7(processing)]TJ
+T*
+[(code)-348(as)-334.6(the)-348(current)-334.6(Snort)-334.6(\(v)13.4(ersion)-348(2.6\),)-334.6(with)-334.6(minor)-348(modi)]TJ
+/TT5 1 Tf
+23.3244 0 TD
+(Ю)Tj
+/TT4 1 Tf
+0.5562 0 TD
+(cations)Tj
+-23.8805 -1.1108 TD
+[(to)-388.1(mak)13.4(e)-401.5(certain)-388.1(code)-401.5(se)13.4(gments)-401.5(re-entrant)-388.1(and)-401.5(well-synchronized)]TJ
+T*
+[(using)-441.6(Pthreads.)-414.9(The)-428.3(resulting)-441.7(NIDS)-414.9(is)-414.9(e)26.8(v)26.8(aluated)-455(on)-428.3(a)-428.3(1)0(U)-428.3(rack-)]TJ
+T*
+[(mounted)-267.7(Sun)-254.3(Fire)-240.9(X4100)-267.7(x86-64)-267.7(Linux)-254.3(system)-254.3(with)-254.3(tw)13.4(o)-240.9(dual-core)]TJ
+T*
+[(Opteron)-267.7(processors)-267.7(\(four)-254.3(processor)-267.7(cores)-254.3(in)-254.3(total\).)]TJ
+1.3383 -1.1108 TD
+[(Figure)-348(1)-361.4(sho)26.8(ws)-361.4(the)-361.4(performance)-361.3(speedup)-388.1(for)-348(the)-361.3(conserv)26.8(ati)26.8(v)13.4(e)]TJ
+-1.3383 -1.1242 TD
+[(parallelization)-495.2(scheme,)-495.2(which)-481.8(achie)26.8(v)13.4(e)0(s)-508.6(substantial)-495.2(speedups)-508.6(on)]TJ
+0 -1.1108 TD
+[(all)-455(3)-455(L)0(L)-455(traces,)-455(achie)26.8(ving)-468.4(73–83%)-481.8(of)-468.4(the)-455(theoretical)-455(ideal)-468.4(lin-)]TJ
+T*
+[(ear)-388.1(speedup)-401.5(for)-388.1(2–4)-388.1(threads)-388.1(and)-401.5(achie)26.8(ving)-401.5(2.9–3.0)-388.1(speedup)-414.9(at)-374.7(4)]TJ
+T*
+[(threads.)-227.5(All)-214.1(3)-227.5(traces)-227.5(see)-227.5(processing)-240.9(rates)-227.5(in)-214.1(e)13.4(xcess)-240.9(of)-227.5(1)-214.1(Gbps)-240.9(with)-214.1(4)]TJ
+T*
+[(threads;)-200.7(tw)13.4(o)-200.7(o)0(f)-200.7(the)-200.7(traces)-200.7(achie)26.8(v)13.4(e)-214.1(this)-200.8(rate)-200.8(with)-187.4(3.)-200.8(The)-200.8(peak)-214.1(process-)]TJ
+T*
+[(ing)-227.5(rate)-214.1(is)-214.1(1.7)-214.1(Gbps.)-214.1(The)-227.5(tw)13.4(o)-214.1(f)13.4(actors)-227.5(that)-214.1(limit)-200.7(performance)-240.9(in)-214.1(these)]TJ
+T*
+[(cases)-227.5(are)-227.5(a)-227.5(small)-227.5(amount)-227.5(of)-227.5(imbalance)-240.9(\(occasionally)-240.9(more)-227.5(than)-240.9(one)]TJ
+ET
+1 1 1 rg
+313.478 721.037 243.597 -165.703 re
+f
+345.389 700.99 208.828 -113.918 re
+f
+q
+345.389 605.993 208.828 0.043 re
+W n
+1 j 0.043 w 
+345.389 606.037 m
+554.217 606.037 l
+S
+Q
+q
+345.389 625.001 208.828 0.043 re
+W n
+1 j 0.043 w 
+345.389 625.045 m
+554.217 625.045 l
+S
+Q
+q
+345.389 643.966 208.828 0.043 re
+W n
+1 j 0.043 w 
+345.389 644.009 m
+554.217 644.009 l
+S
+Q
+q
+345.389 662.974 208.828 0.043 re
+W n
+1 j 0.043 w 
+345.389 663.017 m
+554.217 663.017 l
+S
+Q
+q
+345.389 681.939 208.828 0.043 re
+W n
+1 j 0.043 w 
+345.389 681.982 m
+554.217 681.982 l
+S
+Q
+q
+345.389 700.947 208.828 0.043 re
+W n
+1 j 0.043 w 
+345.389 700.99 m
+554.217 700.99 l
+S
+Q
+1 j 0.043 w 
+345.389 587.072 208.828 113.918 re
+S
+0 j 0.346 w 
+352.317 587.072 9.266 60.834 re
+B*
+q
+391.935 587.072 13.596 59.838 re
+W n
+394.1 587.072 9.223 57.673 re
+B*
+Q
+435.84 587.072 9.266 64.645 re
+B*
+477.622 587.072 9.223 36.327 re
+B*
+519.362 637.515 9.266 -50.443 re
+f
+q
+517.197 587.072 13.639 52.608 re
+W n
+519.362 587.072 9.266 50.443 re
+S
+Q
+q
+345.389 701.683 209.521 -114.611 re
+W* n
+/Pattern cs /P3 scn
+361.626 673.712 9.266 -86.64 re
+f
+Q
+q
+359.461 587.072 13.596 88.805 re
+W n
+361.626 587.072 9.223 86.64 re
+S
+Q
+q
+345.389 701.683 209.521 -114.611 re
+W* n
+/Pattern cs /P3 scn
+403.366 667.737 9.309 -80.665 re
+f
+Q
+q
+401.201 587.072 13.639 82.83 re
+W n
+403.366 587.072 9.266 80.665 re
+S
+Q
+q
+345.389 701.683 209.521 -114.611 re
+W* n
+/Pattern cs /P3 scn
+445.149 674.708 9.266 -87.636 re
+f
+Q
+q
+442.984 587.072 13.596 89.801 re
+W n
+445.149 587.072 9.223 87.636 re
+S
+Q
+q
+345.389 701.683 209.521 -114.611 re
+W* n
+/Pattern cs /P3 scn
+486.888 620.672 9.309 -33.6 re
+f
+Q
+q
+484.723 587.072 13.639 35.765 re
+W n
+486.888 587.072 9.266 33.6 re
+S
+Q
+q
+345.389 701.683 209.521 -114.611 re
+W* n
+/Pattern cs /P3 scn
+528.671 663.84 9.266 -76.768 re
+f
+Q
+q
+526.506 587.072 13.596 78.933 re
+W n
+528.671 587.072 9.223 76.768 re
+S
+Q
+0 0 1 rg
+370.892 587.072 9.266 105.388 re
+B*
+412.675 587.072 9.223 96.382 re
+B*
+454.415 587.072 9.266 105.562 re
+B*
+496.198 587.072 9.223 37.496 re
+B*
+537.937 587.072 9.266 85.255 re
+B*
+0.043 w 
+345.389 700.99 m
+345.389 587.072 l
+343.051 587.072 m
+345.389 587.072 l
+343.051 606.037 m
+345.389 606.037 l
+343.051 625.045 m
+345.389 625.045 l
+343.051 644.009 m
+345.389 644.009 l
+343.051 663.017 m
+345.389 663.017 l
+343.051 681.982 m
+345.389 681.982 l
+343.051 700.99 m
+345.389 700.99 l
+345.389 587.072 m
+554.217 587.072 l
+345.389 584.734 m
+345.389 587.072 l
+387.172 584.734 m
+387.172 587.072 l
+428.912 584.734 m
+428.912 587.072 l
+470.695 584.734 m
+470.695 587.072 l
+512.434 584.734 m
+512.434 587.072 l
+554.217 584.734 m
+554.217 587.072 l
+S
+BT
+/TT12 1 Tf
+7.3174 0 0 7.3174 335.6037 584.4741 Tm
+0 0 0 rg
+(0)Tj
+-0.8343 2.5917 TD
+0.0002 Tc
+(0.5)Tj
+0.8343 2.5976 TD
+0 Tc
+(1)Tj
+-0.8343 2.5917 TD
+0.0002 Tc
+(1.5)Tj
+0.8343 2.5976 TD
+0 Tc
+(2)Tj
+-0.8343 2.5917 TD
+0.0002 Tc
+(2.5)Tj
+0.8343 2.5976 TD
+0 Tc
+(3)Tj
+3.3018 -17.0296 TD
+-0.0009 Tc
+[(LL1)-3935.9(LL2)-3935.9(LL3)-3539.4(DEF1)-3154.8(DEF2)]TJ
+10.9704 -1.6509 TD
+0.0001 Tc
+(Trace)Tj
+0 7.3174 -7.3174 0 324.6925 628.5952 Tm
+-0.0005 Tc
+(Speedup)Tj
+ET
+1 1 1 rg
+383.189 719.955 133.229 -10.002 re
+f
+383.145 709.953 133.272 10.045 re
+S
+0.346 w 
+385.267 712.204 4.633 4.633 re
+B*
+BT
+7.3174 0 0 7.3174 391.7185 712.0312 Tm
+0 0 0 rg
+-0.0003 Tc
+0.0006 Tw
+(2 Threads)Tj
+ET
+/Pattern cs /P3 scn
+429.431 716.837 4.676 -4.676 re
+f
+429.431 712.204 4.633 4.633 re
+S
+BT
+7.3174 0 0 7.3174 435.8828 712.0312 Tm
+0 0 0 rg
+(3 Threads)Tj
+ET
+0 0 1 rg
+473.596 712.204 4.633 4.633 re
+B*
+BT
+7.3174 0 0 7.3174 480.0472 712.0312 Tm
+0 0 0 rg
+(4 Threads)Tj
+ET
+0 g
+q
+239.16 0 0 -0.36 317.028 557.568 cm
+/Im1 Do
+Q
+BT
+/TT2 1 Tf
+8.9664 0 0 8.9664 341.28 547.02 Tm
+0 Tc
+0 Tw
+[(Figur)13.4(e)-240.9(2)0(.)]TJ
+/TT4 1 Tf
+4.3186 0 TD
+[(P)13.4(arallel)-240.9(speedup)-267.7(for)-254.3(optimistic)-254.3(parallelism)]TJ
+-7.022 -3.0648 TD
+[(thread)-307.8(ran)-307.8(out)-321.2(of)-307.8(w)13.4(ork)-307.8(at)-307.8(the)-307.8(same)-307.8(time\))-307.8(and)-307.8(synchronization)-334.6(and)]TJ
+0 -1.1108 TD
+[(data)-388.1(transfer)-388.1(o)13.4(v)13.4(erheads)-414.9(\(primarily)-388.1(in)-388.1(the)-388.1(form)-388.1(of)-388.1(cache-to-cache)]TJ
+T*
+[(transfers)-307.8(between)-321.2(processors\).)-334.6(In)-307.8(contrast,)-321.2(the)-307.8(Defcon)-321.2(traces)-321.2(ha)13.4(v)13.4(e)]TJ
+T*
+[(poor)-214.1(speedup)-240.9(because)-227.5(of)-200.8(their)-214.1(unusual)-227.5(composition.)-214.1(One)-214.1(in)-214.1(particu-)]TJ
+T*
+[(lar)-214.1(\(DEF2\))-214.1(has)-227.5(almost)-214.1(no)]TJ
+/TT5 1 Tf
+10.2202 0 TD
+(Я)Tj
+/TT4 1 Tf
+0.5562 0 TD
+[(o)26.8(w)-214.1(concurrenc)13.4(y;)-240.9(in)-227.5(f)13.4(act,)-214.1(for)-227.5(much)-227.5(of)-227.5(the)]TJ
+-10.7763 -1.1108 TD
+[(trace)-254.3(there)-267.7(is)-254.3(only)-267.7(one)-267.7(acti)26.8(v)13.4(e)]TJ
+/TT5 1 Tf
+11.7559 0 TD
+(Я)Tj
+/TT4 1 Tf
+0.5562 0 TD
+-0.0268 Tc
+[(ow)40.1(,)-281.1(s)-26.8(o)-294.5(n)-26.8(o)]TJ
+/TT5 1 Tf
+4.0573 0 TD
+0 Tc
+(Я)Tj
+/TT4 1 Tf
+0.5562 0 TD
+[(o)26.8(w-based)-267.7(parallelization)]TJ
+-16.9254 -1.1108 TD
+[(scheme)-361.4(can)-361.4(hope)-361.4(for)-348(an)13.4(y)-361.4(signi)]TJ
+/TT5 1 Tf
+12.6647 0 TD
+(Ю)Tj
+/TT4 1 Tf
+0.5562 0 TD
+[(cant)-361.4(impro)13.4(v)13.4(ement.)-361.3(This)-348(mak)13.4(es)-361.4(it)]TJ
+-13.2209 -1.1108 TD
+[(a)-254.3(good)-267.7(candidate)-281.1(for)-254.3(impro)13.4(v)13.4(ement)-267.7(using)-267.7(the)-254.3(optimistic)-254.3(paralleliza-)]TJ
+T*
+[(tion)-334.6(strate)13.4(gy)66.9(.)-348(Figure)-334.6(2)-348(sho)26.8(ws)-348(the)-348(speedup)-361.4(for)-334.6(this)-348(method,)-348(which)]TJ
+0 -1.1242 TD
+[(indeed)-240.9(sho)26.8(wed)-240.9(bene)]TJ
+/TT5 1 Tf
+8.0634 0 TD
+(Ю)Tj
+/TT4 1 Tf
+0.5561 0 TD
+[(ts)-227.5(o)13.4(v)13.4(e)0(r)-227.5(the)-240.9(conserv)26.8(ati)26.8(v)13.4(e)-240.9(method;)-240.9(performance)]TJ
+-8.6196 -1.1108 TD
+[(impro)13.4(v)13.4(e)0(d)-240.9(b)0(y)-240.9(about)-254.3(50%)-240.9(for)-240.9(4)-227.5(threads)-254.3(to)-227.5(achie)26.8(v)13.4(e)-254.3(a)-227.5(f)13.4(actor)-240.9(of)-240.9(2.2)-240.9(par)13.4(-)]TJ
+T*
+[(allel)-227.5(speedup)-267.7(and)-254.3(a)-240.9(peak)-254.3(traf)]TJ
+/TT5 1 Tf
+11.379 0 TD
+(Ю)Tj
+/TT4 1 Tf
+0.5562 0 TD
+[(c)-227.5(rate)-240.9(o)13.4(v)13.4(e)0(r)-240.9(2)-254.3(Gbps.)-240.9(Since)-240.9(the)-240.9(Lincoln)]TJ
+-11.9352 -1.1108 TD
+[(Lab)-254.3(traces)-254.3(already)-254.3(ha)13.4(v)13.4(e)-254.3(good)]TJ
+/TT5 1 Tf
+11.9877 0 TD
+(Я)Tj
+/TT4 1 Tf
+0.5562 0 TD
+[(o)26.8(w)-240.9(concurrenc)13.4(y)66.9(,)-281(optimistic)]TJ
+/TT5 1 Tf
+11.0827 0 TD
+(Я)Tj
+/TT4 1 Tf
+0.5561 0 TD
+[(o)26.8(w)-240.9(re-)]TJ
+-24.1828 -1.1108 TD
+[(assignment)-254.3(pro)13.4(vides)-254.3(no)-254.3(bene)]TJ
+/TT5 1 Tf
+11.5805 0 TD
+(Ю)Tj
+/TT4 1 Tf
+0.5562 0 TD
+[(t)-240.9(for)-240.9(them;)-254.3(in)-240.9(f)13.4(act,)-240.9(their)-240.9(performance)]TJ
+-12.1367 -1.1108 TD
+[(is)-361.4(de)13.4(graded)-388.1(by)-374.7(7–13%)-401.5(compared)-388.1(to)-361.4(the)-374.7(conserv)26.8(ati)26.8(v)13.4(e)-388.1(method)-388.1(be-)]TJ
+T*
+[(cause)-214.1(of)-227.5(the)-214.1(o)13.4(v)13.4(erhead)-227.5(of)-214.1(maintaining)-227.5(the)-214.1(reorder)-214.1(b)13.4(u)0(f)26.8(fers)-214.1(and)-227.5(the)-214.1(e)13.4(x)0(-)]TJ
+T*
+[(tra)-227.5(synchronization)-267.7(required,)-254.3(limiting)-227.5(speedup)-267.7(to)-240.9(2.8)-240.9(on)-254.3(four)-240.9(cores.)]TJ
+/TT2 1 Tf
+1.325 -1.1108 TD
+[(Summary)66.9(.)]TJ
+/TT4 1 Tf
+4.8737 0 TD
+[(Both)-468.4(schemes)-468.4(see)-468.4(an)-481.8(a)13.4(v)13.4(erage)-468.4(traf)]TJ
+/TT5 1 Tf
+14.3512 0 TD
+(Ю)Tj
+/TT4 1 Tf
+0.5562 0 TD
+[(c)-455(rate)-468.4(of)-455(just)]TJ
+-21.106 -1.1108 TD
+[(o)13.4(v)13.4(e)0(r)-455(1)-455(Gbps)-455(for)-455(the)-455(5)-455(traces,)-455(nearly)-455(doubling)-481.8(the)-455(performance)]TJ
+T*
+[(of)-361.3(the)-361.4(serial)-348(v)13.4(ersion)-374.7(with)-348(only)-361.3(a)-361.4(slight)-361.4(increase)-361.4(in)-361.4(hardw)13.4(are)-374.7(cost)]TJ
+T*
+[(and)-294.4(no)-307.8(increase)-294.4(in)-294.4(space.)-294.4(Either)-294.4(parallelization)-294.4(allo)26.8(ws)-294.4(the)-294.4(bene)]TJ
+/TT5 1 Tf
+25.4871 0 TD
+(Ю)Tj
+/TT4 1 Tf
+0.5562 0 TD
+(ts)Tj
+-26.0433 -1.1108 TD
+[(of)-321.2(high-performance)-361.3(intrusion-detection)-348(without)-321.2(relying)-334.6(either)-334.6(on)]TJ
+T*
+[(higher)-214.1(clock)-200.7(frequencies)-214.1(\(which)-214.1(are)-200.7(reaching)-214.1(a)-200.7(stage)-200.8(of)-200.8(diminishing)]TJ
+T*
+[(returns\))-281.1(or)-267.7(costly)-281.1(and)-294.4(space-consuming)-307.8(load)-281(balancers.)-294.4(Additional)]TJ
+T*
+[(detail)-240.9(can)-267.7(be)-254.3(found)-267.7(in)-254.3(the)-254.3(full)-240.9(paper)-267.7([6].)]TJ
+/TT2 1 Tf
+10.9589 0 0 10.9589 317.04 257.7 Tm
+[(Refer)21.9(ences)]TJ
+/TT4 1 Tf
+7.9701 0 0 7.9701 318.12 244.74 Tm
+[([1])-451.7(F5)-271(Netw)15.1(orks.)-436.6(Securing)-301.1(the)-286.1(Enterprise)-301.1(Perimeter)-301.1(–)-271(Using)-286.1(F5’)60.2(s)-271(BIG-IP)]TJ
+1.611 -1.1292 TD
+[(System)-271(to)-286.1(Pro)15.1(vide)-286.1(Comprehensi)30.1(v)15.1(e)-316.2(Application)-331.2(and)-271(Netw)15.1(ork)-301.1(Security)60.2(.)]TJ
+T*
+[(White)-271(paper)45.2(,)-271(Oct.)-256(2004.)]TJ
+-1.611 -1.6261 TD
+[([2])-451.7(J.)-406.5(W)90.3(.)-391.5(Haines,)-421.6(R.)-406.5(P)105.4(.)-406.5(Lippmann,)-406.5(D.)-406.5(J.)-406.5(Fried,)-421.6(E.)-391.5(T)30.1(ran,)-406.5(S.)-406.5(Boswell,)]TJ
+1.611 -1.1142 TD
+[(and)-436.6(M.)-421.6(A.)-421.6(Zissman.)-918.4(1999)-436.6(D)45.2(ARP)90.3(A)-421.6(Intrusion)-451.7(Detection)-481.8(System)]TJ
+0 -1.1292 TD
+[(Ev)30.1(aluation:)-421.6(Design)-391.5(and)-391.5(Procedures.)-782.9(T)75.3(echnical)-421.6(Report)-391.5(1062,)-376.4(MIT)]TJ
+T*
+[(Lincoln)-271(Laboratory)60.2(,)-271(2001.)]TJ
+-1.611 -1.6261 TD
+[([3])-451.7(Radw)15.1(are)-286.1(Inc.)-361.4(FireProof)-271(Security)-286.1(Acti)30.1(v)30.1(ation.)-421.6(White)-271(paper)45.2(,)-271(Sept.)-256(2004.)]TJ
+T*
+[([4])-451.7(M.)-256(Roesch.)-421.6(Snort)-271(–)-271(Lightweight)-301.1(Intrusion)-286.1(Detection)-316.2(for)-271(Netw)15.1(orks.)-406.5(In)]TJ
+/TT9 1 Tf
+1.611 -1.1142 TD
+[(Pr)45.2(oceedings)-346.3(of)-316.2(the)-316.2(13th)-331.2(USENIX)-301.1(Confer)30.1(ence)-346.3(on)-316.2(System)-331.2(Administr)15.1(a-)]TJ
+0 -1.1292 TD
+(tion)Tj
+/TT4 1 Tf
+1.5557 0 TD
+[(,)-271(pages)-256(229–238,)-271(1999.)]TJ
+-3.1667 -1.6261 TD
+[([5])-451.7(L.)-301.1(Schaelick)15.1(e,)-376.4(K.)-316.2(Wheeler)45.2(,)-346.3(and)-331.2(C.)-316.2(Freeland.)-602.3(SP)90.3(ANIDS:)-316.2(A)-316.2(Scalable)]TJ
+1.611 -1.1292 TD
+[(Netw)15.1(ork)-286.1(Intrusion)-286.1(Detection)-316.2(Loadbalancer)60.2(.)-451.7(I)0(n)]TJ
+/TT9 1 Tf
+19.0567 0 TD
+[(Pr)45.2(oceedings)-286.1(of)-271(the)-286.1(2nd)]TJ
+-19.0567 -1.1142 TD
+[(Confer)30.1(ence)-286.1(on)-256(Computing)-286.1(F)60.2(r)45.2(ontier)15.1(s)]TJ
+/TT4 1 Tf
+14.5096 0 TD
+[(,)-271(pages)-271(315–322,)-256(2005.)]TJ
+-16.1206 -1.6261 TD
+[([6])-451.7(D.)-301.1(L.)-301.1(Schuf)30.1(f,)-316.2(Y)135.5(.)-316.2(R.)-301.1(Choe,)-331.2(and)-316.2(V)135.5(.)-316.2(S.)-301.1(P)15.1(ai.)-557.1(Conserv)30.1(ati)30.1(v)15.1(e)-376.4(vs.)-301.1(optimistic)]TJ
+1.611 -1.1292 TD
+[(parallelization)-301.1(of)-210.8(stateful)-240.9(netw)15.1(ork)-240.9(intrusion)-225.8(detection.)-316.2(T)75.3(echnical)-256(report,)]TJ
+T*
+[(Purdue)-271(Uni)30.1(v)15.1(ersity)60.2(,)-271(2007.)]TJ
+-1.611 -1.6261 TD
+[([7])-451.7(Shmoo)-256(Group.)-361.4(Defcon)-271(9)-256(Capture)-286.1(the)-271(Flag)-256(Data,)-271(Sept.)-256(2001.)]TJ
+ET
+endstream
+endobj
+19 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB ]
+/Font <<
+/TT2 8 0 R
+/TT4 9 0 R
+/TT5 10 0 R
+/TT9 12 0 R
+/TT12 20 0 R
+>>
+/XObject <<
+/Im1 14 0 R
+>>
+/Pattern <<
+/P1 21 0 R
+/P2 22 0 R
+/P3 23 0 R
+>>
+/ExtGState <<
+/GS1 15 0 R
+>>
+>>
+endobj
+24 0 obj
+<<
+/ProcSet [/PDF /ImageC ]
+/XObject <<
+/Im2 25 0 R
+>>
+/ExtGState <<
+/GS1 15 0 R
+>>
+>>
+endobj
+21 0 obj
+<<
+/Type /Pattern
+/Matrix [0.26 0 0 -0.26 33.735 744.115]
+/PatternType 1
+/Resources 24 0 R
+/PaintType 1
+/TilingType 1
+/BBox [0 0 64 64]
+/XStep 64
+/YStep 64
+/Length 39
+>>
+stream
+/GS1 gs
+q
+64 0 0 -64 0 64 cm
+/Im2 Do
+Q
+endstream
+endobj
+26 0 obj
+<<
+/ProcSet [/PDF /ImageC ]
+/XObject <<
+/Im3 27 0 R
+>>
+/ExtGState <<
+/GS1 15 0 R
+>>
+>>
+endobj
+22 0 obj
+<<
+/Type /Pattern
+/Matrix [0.26 0 0 -0.26 33.735 744.115]
+/PatternType 1
+/Resources 26 0 R
+/PaintType 1
+/TilingType 1
+/BBox [0 0 64 64]
+/XStep 64
+/YStep 64
+/Length 39
+>>
+stream
+/GS1 gs
+q
+64 0 0 -64 0 64 cm
+/Im3 Do
+Q
+endstream
+endobj
+28 0 obj
+<<
+/ProcSet [/PDF /ImageC ]
+/XObject <<
+/Im3 27 0 R
+>>
+/ExtGState <<
+/GS1 15 0 R
+>>
+>>
+endobj
+23 0 obj
+<<
+/Type /Pattern
+/Matrix [0.26 0 0 -0.26 296.895 744.115]
+/PatternType 1
+/Resources 28 0 R
+/PaintType 1
+/TilingType 1
+/BBox [0 0 64 64]
+/XStep 64
+/YStep 64
+/Length 39
+>>
+stream
+/GS1 gs
+q
+64 0 0 -64 0 64 cm
+/Im3 Do
+Q
+endstream
+endobj
+14 0 obj
+<<
+/Type /XObject
+/Subtype /Image
+/Width 1
+/Height 1
+/BitsPerComponent 1
+/ImageMask true
+/Length 2
+>>
+stream
+ 
+endstream
+endobj
+25 0 obj
+<<
+/Type /XObject
+/Subtype /Image
+/Width 64
+/Height 64
+/BitsPerComponent 8
+/ColorSpace /DeviceRGB
+/Length 12289
+>>
+stream
+яяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяя
+endstream
+endobj
+27 0 obj
+<<
+/Type /XObject
+/Subtype /Image
+/Width 64
+/Height 64
+/BitsPerComponent 8
+/ColorSpace /DeviceRGB
+/Length 12289
+>>
+stream
+яяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяяяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяяяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяяяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяяяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяяяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяяяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяяяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяяяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяяяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяяяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяяяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяяяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяяяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяяяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяяяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя™3fяяяяяяяяя
+endstream
+endobj
+15 0 obj
+<<
+/Type /ExtGState
+/SA false
+/SM 0.02
+/OP false
+/op false
+/OPM 1
+/BG2 /Default
+/UCR2 /Default
+/HT /Default
+/TR2 /Default
+>>
+endobj
+29 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 0
+/CapHeight 0
+/Descent 0
+/Flags 68
+/FontBBox [-4 -948 1329 786]
+/FontName /JABOIE+CMSY6
+/ItalicAngle -14.035
+/StemV 93
+/StemH 52
+/CharSet (/asteriskmath)
+/FontFile3 30 0 R
+>>
+endobj
+30 0 obj
+<<
+/Length 354
+/Subtype /Type1C
+>>
+stream
+  JABOIE+CMSY6 (шшбJ_ш‡юH1щ¦ч4ч7ч:ќчг RWasteriskmathCopyright (C) 1997 American Mathematical Society. All Rights ReservedCMSY6   ‡  ¤я~гђ­ шџшeч!„–њЂ“ћ—Ў ~ђЃђX XџWџч)З›‘—’џЎx—~„‰Љѓы$1™ч%Ќњ|yz{~z€ЌЂ‡™ы ы$е“‰Њ„~xuv—†љ…ч*Oы)O{…„wuћ’ЌЊ“—ч$еЉ}‡hЉЃ*z›~њќљњЊ‚еЉђЉ–‡±ЉsЈщ?¤ы–ї
+иї”
+endstream
+endobj
+31 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 698
+/CapHeight 0
+/Descent -207
+/Flags 4
+/FontBBox [-63 -250 1027 760]
+/FontName /JABOCP+CMSS9
+/ItalicAngle 0
+/StemV 83
+/StemH 65
+/CharSet (/d/s/c/h/u/ff/comma/y/n/g/v/p/a/i/at/r/e/period)
+/FontFile3 32 0 R
+>>
+endobj
+32 0 obj
+<<
+/Filter /FlateDecode
+/Length 1525
+/Subtype /Type1C
+>>
+stream
+H‰„SiPgЮНI!FEЧ*лмFЛxQЕвx @РС ‚F‘ !1КеЗѓcс€ФЄD­
+Rl+
+‚· 1JЌ‚V0uФСj­­ѕ«NєbЗйLфП7уЅу=ЗчјуаЂ‡б8ЮC-Џс“G)•ЃѓXgї°%э"СЖчeпJ… л	S{БјЮ§ЉЖxc<џ!7уІУ5Z“l|ём›ААсІPЅ:;}‘*KҐ2iХz•‰»иdJГўtµ)o”,T§“Ню€X"›­^ўО^¦Nэ$К©zbXл‰aѓ0,ГВyШtЌaі0L‰cq86ГјЅѕўZ”ЄЦhУіЊЩK–.ЛГъpАД+Бvв2|~™зГ3тeь8~>яю%(њј†»ЭЧ‘є±ПЖ
+®@јЭЄv>D°Ю® 1x€њW·Um?Мд§њвН9zK&9T2њХЦеЭ.†Јяя¶«І],•Ў>Ц7ќшЛN>D•чЗЋ= 6ў>ВZ‘TЖь3о$ЖЋнIЭёЇ-Щмp8а.wапп.,№Лgo> 
+Љ™В5ґiVЬ:‰F"!ђ “Бzy®^§ґТ»3t›тHЯ1ГЃ€‡Г^;Б«Џ‹Б‚rP
+@ЈQJ Сo;Оќ8F#еoД¬ё–gПО¶\є|:ЬЯ?>|&НЈћуЮм к<шЩсw ХЕgGГqвeШ­aЉ„|ce	Ъvћ'/Ф$)h•…"aRђOвба6ФЫ)u»xИ€eL¶fµ<;Ј0‡ЊOЮМ	s7–”‰(2·АЈьGЋ<0"#!./љ§t>»sфй[{хЄфFєь†°Z©+““hр8$A^ЁЧS„Cїg­OТRОв#*8
+(mзіКw
+"Х‹к•[3Й!“Јѕ€ёуХ‹*ы–Нф\gh‘Л›WPczЃ†TИлA}пяdЇ«^јxO·­Илm`x:р#­°Ј™ПNqёдvj3eWE”©Iдб/гыїЅO]*і]ўЧэ,LЉЊYЈ%'DЬzRD[љ€«Я5њі“¶–ь!Э¬y©чQJ3є}±’нёЅ­»Zщl›@дNg2CйЛУ¬‰¤XИlKЪЎT:7{µЮаcШnШ™KННX•lр	{//·Ќ‚6,¤ьE+“3›,›·ТykМ5д“[mkV*8HnfJK}670е[mLa%…цЈDbARekЗй}ЗкNf…Е›Сu(–°‚™±0L<iJeэЖ~‡–2VVШќkЧ	n;±РHґжьЉzМЋ5&i(ёьAб‚"сµн·gВі(TлKЭnЭэ@:ґ|џгчё.M~Bшщ=­AѕDpWL»и3Юб‚¤УNLX 7QОЙ]qяeEqVзЂОЬе‚b‚к­­qйтХГ—\$‘ a];Ќ>ьБЫ%fч	v—ЫlЙ6{шHї©тI™љт†,n	о¶<N? wqЮЖC:сЧЅ«ЏK©›byЙMJЊЗгР®8®­n_юК|ћЩсљ6ЩЖ‡7l(q(jБ¦Т„†2ЁBҐ~‡™>љq`}ЛJЏкuНс>Љ feМмЉЄdje0іщтЄУ¤гO+xYqD[E§Wк-Qeљ-у¶Хы49™ќ·jM•”ФЬДJ*>ЗБЖРqQp¤1Zѕv_-®	иЎx\ЌЦyй—]Зл©„nsі¦КєCЖЩ…`ў(сJJґю9sУF¬Oу(п*Ъ3|хуAZlсAxWЊр©и©љЩkџ±Sђb°~jQќкхЄК”?тktNЏс"HмЉI*з2+Ин¦r=m™&,Щh[[C¬eА«‘–.ЭыN±}їbчЉPJ™ІКу0Ь-щВбйтjІH$®rIJй№n±_*pДфo+€ї ‡ёэЊ
+endstream
+endobj
+33 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 0
+/CapHeight 0
+/Descent 0
+/Flags 96
+/FontBBox [-30 -958 1146 777]
+/FontName /JABOCJ+CMSY9
+/ItalicAngle -14.035
+/StemV 87
+/StemH 43
+/CharSet (/braceleft/braceright)
+/FontFile3 34 0 R
+>>
+endobj
+34 0 obj
+<<
+/Length 495
+/Subtype /Type1C
+>>
+stream
+  JABOCJ+CMSY9 %шшбJ_шmюRzщќч$ч)Їш^ FKCopyright (C) 1997 American Mathematical Society. All Rights ReservedCMSY9    \ ^    —+ ыЋ¤шbҐшb¤чqТчёшµн‹›¬Ё°¬ґЌ¦ЌђЊђЏ’‚‹ы3VCЉыX<‹whkfk^‰yЉ†ѓ€ЃЃ“€ђФ€єhWЌѓ‹‰fыZd‹aИfmјМ‡ў—”‹–ѓЊ‚KЏY©}Ѕ€—‹“©ч*Ё‹јЉ”ЃГX«U›ч®‹МёыЋ¤шbҐшcЈчqТчёшкІ‹µN°ЄXHЋyЃ‹~Ђ“‹”ЉЛ‡Ѕm™YЋ‹ѓmы*n‹ZЊ‚•SѕkБ{ыh‹J^ы*)‹{jnfjb‰p‰†Љ†‡„~•‹—фжїФЊчXЪ‹џ®«°«ёЌќЊђ“Ћ••ѓЋ†BЋ\®~ї‰“‹Ќ°uЎщ?Ўы‘ Cy я	¶
+в¶Q:€@?ц
+endstream
+endobj
+35 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 0
+/CapHeight 0
+/Descent 0
+/Flags 68
+/FontBBox [-29 -960 1116 775]
+/FontName /JABOBE+CMSY10
+/ItalicAngle -14.035
+/StemV 85
+/StemH 40
+/CharSet (/asteriskmath)
+/FontFile3 36 0 R
+>>
+endobj
+36 0 obj
+<<
+/Length 354
+/Subtype /Type1C
+>>
+stream
+  JABOBE+CMSY10 'шшбJ_шnюTърщ›ч5ч8ч;¦чЪ RXasteriskmathCopyright (C) 1997 American Mathematical Society. All Rights ReservedCMSY10   ‡  љш€­ шџчqЅч™чyЇqЇp°q‚—ќ~’™—›“‡•}’ы%Пч"П”Џ—‘››}—~‡†ЉѓЂы.™ч4ЊЉўr{~~~ЋЂ™ы3ыз”~‹Њ„~}{{—…”‡ч!Hы!G‚‡…{{™ЏђЊ“–чи}ы8†|€™™¦‹ў™ЉuЎщ?Ўыђ Cy я	і
+аіљ
+endstream
+endobj
+37 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 750
+/CapHeight 676
+/Descent -250
+/Flags 262178
+/FontBBox [-168 -218 1000 935]
+/FontName /Times-Bold
+/ItalicAngle 0
+/StemV 133
+/XHeight 461
+/StemH 139
+>>
+endobj
+38 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 750
+/CapHeight 662
+/Descent -250
+/Flags 34
+/FontBBox [-168 -218 1000 898]
+/FontName /Times-Roman
+/ItalicAngle 0
+/StemV 84
+/XHeight 450
+/StemH 84
+>>
+endobj
+39 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 750
+/CapHeight 662
+/Descent -250
+/Flags 34
+/FontBBox [-168 -218 1000 898]
+/FontName /Times-Roman
+/ItalicAngle 0
+/StemV 84
+/XHeight 450
+/StemH 84
+>>
+endobj
+40 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 750
+/CapHeight 669
+/Descent -250
+/Flags 262242
+/FontBBox [-200 -218 996 921]
+/FontName /Times-BoldItalic
+/ItalicAngle -15
+/StemV 133
+/XHeight 462
+/StemH 121
+>>
+endobj
+41 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 750
+/CapHeight 653
+/Descent -250
+/Flags 98
+/FontBBox [-169 -217 1010 883]
+/FontName /Times-Italic
+/ItalicAngle -15
+/StemV 76
+/XHeight 441
+/StemH 76
+>>
+endobj
+42 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 750
+/CapHeight 653
+/Descent -250
+/Flags 98
+/FontBBox [-169 -217 1010 883]
+/FontName /Times-Italic
+/ItalicAngle -15
+/StemV 76
+/XHeight 441
+/StemH 76
+>>
+endobj
+43 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 905
+/CapHeight 0
+/Descent -211
+/Flags 32
+/FontBBox [-167 -210 1000 913]
+/FontName /Arial-BoldMT
+/ItalicAngle 0
+/StemV 144
+/XHeight 0
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/FirstChar 1
+/LastChar 1
+/Widths [500 ]
+/Encoding 44 0 R
+/BaseFont /JABOBE+CMSY10
+/FontDescriptor 35 0 R
+/ToUnicode 45 0 R
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/FirstChar 123
+/LastChar 125
+/Widths [514 0 514 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /JABOCJ+CMSY9
+/FontDescriptor 33 0 R
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/FirstChar 1
+/LastChar 121
+/Widths [600 343 343 343 343 343 343 343 343 343 343 343 343 343 343 343 
+343 343 343 343 343 343 343 343 343 343 343 343 343 343 343 343 
+343 343 343 343 343 343 343 343 343 343 343 285 343 285 343 343 
+343 343 343 343 343 343 343 343 343 343 343 343 343 343 343 685 
+343 343 343 343 343 343 343 343 343 343 343 343 343 343 343 343 
+343 343 343 343 343 343 343 343 343 343 343 343 343 343 343 343 
+494 343 457 531 457 343 514 531 245 343 343 343 343 531 343 531 
+343 351 394 343 531 474 343 343 474 ]
+/Encoding 46 0 R
+/BaseFont /JABOCP+CMSS9
+/FontDescriptor 31 0 R
+/ToUnicode 47 0 R
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/FirstChar 1
+/LastChar 1
+/Widths [639 ]
+/Encoding 48 0 R
+/BaseFont /JABOIE+CMSY6
+/FontDescriptor 29 0 R
+/ToUnicode 49 0 R
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 46
+/LastChar 122
+/Widths [250 0 0 500 500 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 722 667 722 722 667 611 0 0 389 0 0 0 0 
+722 778 611 0 722 556 0 0 0 0 0 0 0 0 0 0 
+0 0 0 500 556 444 556 444 333 500 0 278 0 556 278 833 
+556 500 556 0 444 389 333 556 500 722 500 500 444 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Times-Bold
+/FontDescriptor 37 0 R
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 37
+/LastChar 151
+/Widths [833 0 0 333 333 0 0 250 333 250 278 500 500 500 500 500 
+500 500 500 500 500 278 278 0 0 0 0 0 722 667 667 722 
+611 556 722 722 333 389 722 611 889 722 722 556 0 667 556 611 
+722 722 944 722 722 611 333 0 333 0 0 0 444 500 444 500 
+444 333 500 500 278 278 500 278 778 500 500 500 500 333 389 278 
+500 500 722 500 500 444 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 333 0 0 
+0 500 1000 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Times-Roman
+/FontDescriptor 38 0 R
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 222
+/LastChar 223
+/Widths [556 556 ]
+/Encoding /MacRomanEncoding
+/BaseFont /Times-Roman
+/FontDescriptor 39 0 R
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 67
+/LastChar 121
+/Widths [667 722 0 0 722 0 0 0 667 0 0 0 0 0 0 0 
+556 611 0 0 0 0 0 0 0 0 0 0 0 0 500 500 
+444 500 444 0 500 0 278 278 0 278 778 556 500 500 0 389 
+389 278 556 0 667 0 444 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Times-BoldItalic
+/FontDescriptor 40 0 R
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 45
+/LastChar 121
+/Widths [333 0 0 0 500 500 500 0 0 0 0 0 0 0 0 0 
+0 0 0 0 611 0 667 0 611 611 0 0 333 0 0 0 
+0 667 0 611 0 0 500 556 722 0 0 611 0 0 0 0 
+0 0 0 0 500 500 444 500 444 278 500 500 278 0 444 278 
+722 500 500 500 500 389 389 278 500 0 667 0 444 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Times-Italic
+/FontDescriptor 41 0 R
+>>
+endobj
+13 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 223
+/LastChar 223
+/Widths [500 ]
+/Encoding /MacRomanEncoding
+/BaseFont /Times-Italic
+/FontDescriptor 42 0 R
+>>
+endobj
+20 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 117
+/Widths [278 0 0 0 0 0 0 0 0 0 0 0 0 0 278 0 
+556 556 556 556 556 556 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 722 667 611 0 0 0 0 0 611 0 0 0 
+0 0 0 667 611 0 0 0 0 0 0 0 0 0 0 0 
+0 556 0 556 611 556 0 0 611 0 0 0 0 0 0 0 
+611 0 389 556 0 611 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Arial-BoldMT
+/FontDescriptor 43 0 R
+>>
+endobj
+44 0 obj
+<<
+/Type /Encoding
+/Differences [ 1/asteriskmath
+]
+>>
+endobj
+46 0 obj
+<<
+/Type /Encoding
+/Differences [ 1/ff 44/comma 46/period 64/at 97/a 99/c/d/e
+ 103/g/h/i 110/n 112/p 114/r/s 117/u
+/v 121/y
+]
+>>
+endobj
+48 0 obj
+<<
+/Type /Encoding
+/Differences [ 1/asteriskmath
+]
+>>
+endobj
+45 0 obj
+<<
+/Filter /FlateDecode
+/Length 215
+>>
+stream
+H‰TP»nГ0ЬхtђеҐ‹б%Ey Nі+н€)Ѓ–я}%ЗIСЃрИГ)wНWC.‚<±7-FиYЖСOlnШ;U‚u&®Э‚fРd·уqhЁуPUBћУpЊ<Гж[}[ђG¶ИЋzШ\ФП5нВ¤Ф5Xм„Ьнu8иAfЩw™B№фj5цЗ І¦Ў*Tэ$ыцRЬ:sЧ,ћ›e©>k‘vW6«т)п fbNЩ–{—ЩЬѕ_|И^№ДЇ  ~“hK
+endstream
+endobj
+47 0 obj
+<<
+/Filter /FlateDecode
+/Length 299
+>>
+stream
+H‰TQЛnѓ0јы+цЄ›G ‘‡ТFвР‡љ¤wbj©Л_/¦©z ЖгЩ<жUэTkеЂїЫQћРA§tkqg+®Ш+Q­’n[­o94ё>-“ГЎЦЭEБш‡Яњњ]`wLоЕр7ЫўUє‡Э9є|zв4уЌjКZмЇ^уЪњЖюёуbвumБc‹“i$ЪFч…€J(тC	ЁЫя{м!L\;щХX”ЗG!JVДТc!вЉ0ьмq*Vњ’&‹Vм?MFљ<hrТP0бCЙ|ю–”юж†Я(ІД‹І}pHИ-'"Њzмmb:Dјb"HќgЃШoжБЋОIеЯ*“іµѕНх†ЦТЁ.Ґсv‰f4Ф=мGЂ ›ђ
+endstream
+endobj
+49 0 obj
+<<
+/Filter /FlateDecode
+/Length 216
+>>
+stream
+H‰TP1nГ0Ьх
+Ћ):И2t1ј$а!iP§Э‰vД”@Лѓ_ЙqSdа<тpGК]іoИEђgц¦Еќ#Л8ъ‰В{G J°ОДµ[Р:ЂLвv#uЄJИЇ4#П°9lЯ‹7ђџl‘х°№ЁпџDґSwђ"PЧ`±rwФб¤™eяЬeеТ«ХШ[ѓ6Иљz„ЄPхђмлмOqнМMіxl–ҐъЁEЪ]Щ¬К§<‰9e[о]"dsGш|Iр!{еї ѓ@hQ
+endstream
+endobj
+1 0 obj
+<<
+/Type /Page
+/Parent 16 0 R
+/Resources 3 0 R
+/Contents 2 0 R
+>>
+endobj
+17 0 obj
+<<
+/Type /Page
+/Parent 16 0 R
+/Resources 19 0 R
+/Contents 18 0 R
+>>
+endobj
+50 0 obj
+<<
+/S /D
+>>
+endobj
+51 0 obj
+<<
+/Nums [0 50 0 R ]
+>>
+endobj
+16 0 obj
+<<
+/Type /Pages
+/Kids [1 0 R 17 0 R]
+/Count 2
+/MediaBox [0 0 612 792]
+>>
+endobj
+52 0 obj
+<<
+/CreationDate (D:20070112132705-05'00')
+/ModDate (D:20070112132705-05'00')
+/Producer (Apple pstopdf)
+>>
+endobj
+53 0 obj
+<<
+/Type /Catalog
+/Pages 16 0 R
+/PageLabels 51 0 R
+>>
+endobj
+xref
+0 54
+0000000000 65535 f 
+0000078040 00000 n 
+0000000016 00000 n 
+0000017135 00000 n 
+0000073214 00000 n 
+0000073386 00000 n 
+0000073559 00000 n 
+0000074219 00000 n 
+0000074390 00000 n 
+0000074787 00000 n 
+0000075339 00000 n 
+0000075514 00000 n 
+0000075847 00000 n 
+0000076245 00000 n 
+0000042699 00000 n 
+0000067713 00000 n 
+0000078273 00000 n 
+0000078121 00000 n 
+0000017366 00000 n 
+0000041432 00000 n 
+0000076417 00000 n 
+0000041763 00000 n 
+0000042109 00000 n 
+0000042455 00000 n 
+0000041660 00000 n 
+0000042837 00000 n 
+0000042006 00000 n 
+0000055275 00000 n 
+0000042352 00000 n 
+0000067854 00000 n 
+0000068079 00000 n 
+0000068502 00000 n 
+0000068760 00000 n 
+0000070376 00000 n 
+0000070610 00000 n 
+0000071174 00000 n 
+0000071401 00000 n 
+0000071824 00000 n 
+0000072026 00000 n 
+0000072223 00000 n 
+0000072420 00000 n 
+0000072629 00000 n 
+0000072829 00000 n 
+0000073029 00000 n 
+0000076806 00000 n 
+0000077091 00000 n 
+0000076876 00000 n 
+0000077379 00000 n 
+0000077021 00000 n 
+0000077751 00000 n 
+0000078205 00000 n 
+0000078233 00000 n 
+0000078362 00000 n 
+0000078485 00000 n 
+trailer
+<<
+/Size 54
+/Root 53 0 R
+/Info 52 0 R
+/ID [<85ec72f6e0afeeeddcb1a5e0af2652e2><85ec72f6e0afeeeddcb1a5e0af2652e2>]
+>>
+startxref
+78555
+%%EOF
