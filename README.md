@@ -35,7 +35,7 @@
 
 ## Patent Issued
 
-* A. Cox, Y.C. Hu, V. Pai, V. Pai, and W. Zwaenepoel, [Storage and retrieval system for web cache](<a href="http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-adv.htm&r=1&f=G&l=50&d=PALL&S1=07231494&OS=PN/07231494&RS=PN/07231494">), US Patent Number 7,231,494, Issued June 12, 2007.
+* A. Cox, Y.C. Hu, V. Pai, V. Pai, and W. Zwaenepoel, [Storage and retrieval system for web cache](http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-adv.htm&r=1&f=G&l=50&d=PALL&S1=07231494&OS=PN/07231494&RS=PN/07231494), US Patent Number 7,231,494, Issued June 12, 2007.
 
 ## Graduate Students Advised
 
