@@ -37,25 +37,8 @@
 
 * A. Cox, Y.C. Hu, V. Pai, V. Pai, and W. Zwaenepoel, [Storage and retrieval system for web cache](http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-adv.htm&r=1&f=G&l=50&d=PALL&S1=07231494&OS=PN/07231494&RS=PN/07231494), US Patent Number 7,231,494, Issued June 12, 2007.
 
-## Graduate Students Advised
-
-* Yung Ryn "Elisha" Choe (Purdue, PhD 2007. First employment: Sandia Livermore National Labs)
-* Qasim Ali (Purdue, PhD 2009. First employment: VMWare)
-* Gautam Upadhyaya (Purdue, PhD 2010. First employment: Intel KAI Systems Lab)
-* Derek Schuff (Purdue, MS 2007, PhD 2010. First employment: Google)
-* Jagadeesh Dyaberi (Purdue, PhD 2011. First employment: Saavn Music)
-* Benjamin Parsons (Purdue, PhD 2015. First emplyment: Army Corps of Engineers, Research and Development Center)
-* Abhisek Pan (Purdue, PhD 2015. First employment: AMD Research)
-* Malek Musleh (Purdue, PhD 2015. First employment: Intel)
-* Chenyang Liu (Purdue, PhD 2016. First employment: TBD)
-* Hyong-youb Kim (Rice, MS 2003)
-* Supratik Majumder (Rice, MS 2004)
-* Paul Willmann (Rice, MS 2004)
-* Stephen Ziemba (Purdue, MS 2009)
-* Patrick Clough (Purdue, MS 2010)
-* Matthew Harger (Purdue, MS 2012)
-
 ## Miscellaneous
 
+* [Grad students advised while a professor](students.md)
 * [Grants and external funding received while a professor](grants.md)
 
