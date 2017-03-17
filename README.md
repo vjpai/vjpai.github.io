@@ -2,7 +2,7 @@
 
 ## Contact Information
 
-* WWW: [vjpai](https://vjpai.github.io/)
+* WWW: [vjpai.github.io](https://vjpai.github.io/)
 * Github: [vjpai](https://github.com/vjpai/)
 * LinkedIn: [Vijay Pai](https://www.linkedin.com/in/vijay-pai-b4b500a/)
 
