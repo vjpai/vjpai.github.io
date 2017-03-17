@@ -14,6 +14,7 @@ layout: default
 
 * Google. Software Engineer, [gRPC](https://github.com/grpc/grpc), 2014-present.
 * Purdue University. Associate Professor, Electrical and Computer Engineering, 2009-2014.
+* University of Southern California. Visiting Scholar, Information Sciences Institute. 2012-2013.
 * Purdue University. Assistant Professor, Electrical and Computer Engineering, 2004-2009.
 * Rice University. Assistant Professor, Electrical and Computer Engineering, 2001-2004.
 * iMimic Networking. Co-founder and Senior Developer, 1999-2001.
