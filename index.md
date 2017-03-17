@@ -21,8 +21,12 @@ layout: default
 ## Education
 
 * Rice University. Ph.D., Electrical and Computer Engineering, 2000.
-* Rice University. M.S.., Electrical and Computer Engineering, 1997.
+  - [Hertz Foundation](http://www.hertzfndn.org/) Fellow
+  - Thesis: _Exploiting Instruction-Level Parallelism for Memory System Performance_
+  - Advisor: [Prof. Sarita Adve](http://rsim.cs.illinois.edu/~sadve/)
+  
 * Rice University. B.S.E.E. with a focus in Computer Engineering, 1994.
+  - Honorary societies: Phi Beta Kappa, Eta Kappa Nu, Tau Beta Pi
 
 
 ## Free and Open-source Software Projects
