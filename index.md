@@ -14,23 +14,24 @@ layout: default
 
 * Google. Software Engineer, [gRPC](https://github.com/grpc/grpc), 2014-present.
 * Purdue University. Associate Professor, Electrical and Computer Engineering, 2009-2014.
-  - Seed for Success Award, 2013.
 * Purdue University. Assistant Professor, Electrical and Computer Engineering, 2004-2009.
-  - Wilfred "Duke" Hesselberth Award for Teaching Excellence, 2007.
 * Rice University. Assistant Professor, Electrical and Computer Engineering, 2001-2004.
-  - NSF CAREER award, 2003.
 * iMimic Networking. Co-founder and Senior Developer, 1999-2001.
 
 ## Education
 
 * Rice University. Ph.D., Electrical and Computer Engineering, 2000.
-  - [Hertz Foundation](http://www.hertzfndn.org/) Fellow
   - Thesis: _Exploiting Instruction-Level Parallelism for Memory System Performance_
   - Advisor: [Prof. Sarita Adve](http://rsim.cs.illinois.edu/~sadve/)
-  
 * Rice University. B.S.E.E. with a focus in Computer Engineering, 1994.
-  - Honorary societies: Phi Beta Kappa, Eta Kappa Nu, Tau Beta Pi
 
+## Awards and Honors
+
+* Purdue Seed for Success Award, 2013.
+* Wilfred "Duke" Hesselberth Award for Teaching Excellence, 2007.
+* NSF CAREER award, 2003.
+* [Hertz Foundation](http://www.hertzfndn.org/) Fellow, 1994-1999
+* Honorary societies: Phi Beta Kappa, Eta Kappa Nu, Tau Beta Pi
 
 ## Free and Open-source Software Projects
 
