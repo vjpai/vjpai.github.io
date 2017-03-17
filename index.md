@@ -14,8 +14,11 @@ layout: default
 
 * Google. Software Engineer, [gRPC](https://github.com/grpc/grpc), 2014-present.
 * Purdue University. Associate Professor, Electrical and Computer Engineering, 2009-2014.
+  - Seed for Success Award, 2013.
 * Purdue University. Assistant Professor, Electrical and Computer Engineering, 2004-2009.
+  - Wilfred "Duke" Hesselberth Award for Teaching Excellence, 2007.
 * Rice University. Assistant Professor, Electrical and Computer Engineering, 2001-2004.
+  - NSF CAREER award, 2003.
 * iMimic Networking. Co-founder and Senior Developer, 1999-2001.
 
 ## Education
