@@ -1,4 +1,8 @@
-# [Vijay S. Pai](README.md)
+---
+layout: default
+---
+
+# [Vijay S. Pai](index.md)
 ## Research Publications
 
 ### Refereed Journal Publications

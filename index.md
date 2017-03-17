@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Vijay Pai
 
 ## Contact Information

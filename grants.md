@@ -1,4 +1,8 @@
-# [Vijay S. Pai](README.md)
+---
+layout: default
+---
+
+# [Vijay S. Pai](index.md)
 ## Grants and External Funding
 
 * Milind Kulkarni, Samuel Midkiff, Michael Parks, Vijay S. Pai, and

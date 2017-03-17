@@ -1,4 +1,8 @@
-# [Vijay S. Pai](README.md)
+---
+layout: default
+---
+
+# [Vijay S. Pai](index.md)
 ## Graduate Students Advised
 
 * Yung Ryn "Elisha" Choe (Purdue, PhD 2007. First employment: Sandia Livermore National Labs)
