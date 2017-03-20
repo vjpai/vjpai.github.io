@@ -3,6 +3,7 @@ layout: default
 ---
 
 <img align="right" src="https://avatars3.githubusercontent.com/u/8864912?v=3&s=150" />
+
 # Vijay Pai
 
 ## Contact Information
