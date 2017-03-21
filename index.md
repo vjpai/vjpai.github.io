@@ -55,6 +55,7 @@ layout: default
 
 ## Miscellaneous
 
-* [Grad students advised while a professor](students.md)
-* [Grants and external funding received while a professor](grants.md)
-
+* Some details about my time as a professor:
+  - [Courses taught](courses.md)
+  - [Grad students advised](students.md)
+  - [Grants and external funding received](grants.md)
