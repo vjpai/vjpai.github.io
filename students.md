@@ -13,7 +13,7 @@ layout: default
 * Benjamin Parsons (Purdue, PhD 2015. First emplyment: Army Corps of Engineers, Research and Development Center)
 * Abhisek Pan (Purdue, PhD 2015. First employment: AMD Research)
 * Malek Musleh (Purdue, PhD 2015. First employment: Intel)
-* Chenyang Liu (Purdue, PhD 2016. First employment: TBD)
+* Chenyang Liu (Purdue, PhD 2016. First employment: Qualcomm)
 * Hyong-youb Kim (Rice, MS 2003)
 * Supratik Majumder (Rice, MS 2004)
 * Paul Willmann (Rice, MS 2004)
