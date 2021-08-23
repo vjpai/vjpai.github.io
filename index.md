@@ -14,7 +14,8 @@ layout: default
 
 ## Employment
 
-* Google. Software Engineer, [gRPC](https://github.com/grpc/grpc), 2014-present.
+* Facebook. Performance and Capacity Engineer, 2021-present.
+* Google. Software Engineer, [gRPC](https://github.com/grpc/grpc), 2014-2021.
 * Purdue University. Associate Professor, Electrical and Computer Engineering, 2009-2014.
 * University of Southern California. Visiting Scholar, Information Sciences Institute. 2012-2013.
 * Purdue University. Assistant Professor, Electrical and Computer Engineering, 2004-2009.
@@ -38,7 +39,7 @@ layout: default
 
 ## Free and Open-source Software Projects
 
-* [gRPC: gRPC Remote Procedure Calls](https://github.com/grpc/grpc/): contributor, benchmarking lead, 2014-present
+* [gRPC: gRPC Remote Procedure Calls](https://github.com/grpc/grpc/): contributor, benchmarking lead, C++ API lead, 2014-2021
 * [RSIM: Rice Simulator for ILP Multiprocessors](http://rsim.cs.uiuc.edu/rsim/dist.html): contributor, maintainer, 1995-2000
 * Spinach (simulator for programmable network interfaces): advisor, 2002-2006
 * Toast (server-assisted VoD-adapted BitTorrent): advisor, 2009
