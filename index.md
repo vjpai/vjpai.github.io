@@ -14,7 +14,8 @@ layout: default
 
 ## Employment
 
-* Facebook. Performance and Capacity Engineer, 2021-present.
+* Stripe. Software Engineer, Efficiency, 2022-present.
+* Facebook. Performance and Capacity Engineer, 2021-2022.
 * Google. Software Engineer, [gRPC](https://github.com/grpc/grpc), 2014-2021.
 * Purdue University. Associate Professor, Electrical and Computer Engineering, 2009-2014.
 * University of Southern California. Visiting Scholar, Information Sciences Institute. 2012-2013.
@@ -31,6 +32,7 @@ layout: default
 
 ## Awards and Honors
 
+* Google Technical Infrastructure Award, 2017.
 * Purdue Seed for Success Award, 2013.
 * Wilfred "Duke" Hesselberth Award for Teaching Excellence, 2007.
 * NSF CAREER award, 2003.
